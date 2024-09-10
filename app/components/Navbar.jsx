@@ -88,7 +88,7 @@ const Navbar = () => {
                            transition: { type: "spring", stiffness: 100 },
                         }}
                      >
-                        A propos
+                        À propos
                      </motion.li>
                   </Link>
                   <Link href="/#services">

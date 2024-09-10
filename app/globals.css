@@ -35,7 +35,7 @@ body {
 }
 
 .glass-effect {
-  background: rgba(255, 255, 255, 0.1); /* Arrière-plan semi-transparent */
+  background: rgba(52, 248, 13, 0.1); /* Arrière-plan semi-transparent */
   border-radius: 21px; /* Coins arrondis */
   backdrop-filter: blur(2px); /* Effet de flou */
   -webkit-backdrop-filter: blur(10px); /* Support pour Safari */

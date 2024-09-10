@@ -2,6 +2,7 @@
 import { motion } from "framer-motion";
 import Head from "next/head";
 import React from "react";
+import Link from "next/link";
 import { AuroraBackground } from "./ui/aurora-background";
 import { FlipWords } from "./ui/flip-word";
 import { HeroHighlight, Highlight } from "./ui/hero-highlight";
@@ -42,8 +43,8 @@ const Main: React.FC = () => {
                   <FlipWords words={words} />
                </div>
 
-               {/* Conteneur Flex pour aligner les deux boutons côte à côte */}
-               <div className="flex space-x-6">
+               
+               <div className="flex space-x-7">
                   <motion.button
                      className="bg-green-300 text-black dark:bg-white rounded-full w-fit hover:scale-110  dark:text-black px-4 py-2"
                      whileHover={{
@@ -53,15 +54,17 @@ const Main: React.FC = () => {
                   >
                      Prendre contact
                   </motion.button>
-                  <motion.button
-                     className="bg-black dark:bg-white rounded-full w-fit hover:scale-110 text-white dark:text-black px-4 py-2"
-                     whileHover={{
-                        scale: 1.3,
-                        transition: { type: "spring", stiffness: 100 },
-                     }}
-                  >
-                     En savoir plus
-                  </motion.button>
+                  <Link href="/#about">
+                     <motion.button
+                        className="bg-black dark:bg-white rounded-full w-fit hover:scale-110 text-white dark:text-black px-4 py-2"
+                        whileHover={{
+                           scale: 1.3,
+                           transition: { type: "spring", stiffness: 100 },
+                        }}
+                     >
+                        En savoir plus
+                     </motion.button>
+                  </Link>
                </div>
             </motion.div>
          </AuroraBackground>
