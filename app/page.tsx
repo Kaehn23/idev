@@ -36,7 +36,7 @@ export default function Home() {
             <ScrollToTop/>
          </main>
          <footer>
-            <Footer />
+            {/* <Footer /> */}
          </footer>
       </body>
    );

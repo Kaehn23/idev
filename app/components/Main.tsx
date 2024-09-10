@@ -54,6 +54,7 @@ const Main: React.FC = () => {
                   >
                      Prendre contact
                   </motion.button>
+                  
                   <Link href="/#about">
                      <motion.button
                         className="bg-black dark:bg-white rounded-full w-fit hover:scale-110 text-white dark:text-black px-4 py-2"
