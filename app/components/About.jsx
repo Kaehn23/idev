@@ -64,12 +64,16 @@ const About = () => {
                   </p>
                   <p>
                      Le site internet d'une entreprise la reflète, je mets donc
-                     en œuvre toutes mes compétences pour réaliser des sites 
-                     <span className="font-bold text-xl"> rapides</span>, optimisés pour le <span className="font-bold text-xl">SEO</span>, et <span className="font-bold text-xl">responsive</span> (adaptés à toute taille
-                     d'écrans).
-               
+                     en œuvre toutes mes compétences pour réaliser des sites
+                     <span className="font-bold text-xl"> rapides</span>,
+                     optimisés pour le{" "}
+                     <span className="font-bold text-xl">SEO</span>, et{" "}
+                     <span className="font-bold text-xl">responsive</span>{" "}
+                     (adaptés à toute taille d'écrans).
                   </p>
-                  <h4 className="font-bold pt-2">Voici ma méthode en trois points : </h4>
+                  <h4 className="font-bold pt-2">
+                     Voici ma méthode en trois points :{" "}
+                  </h4>
                </article>
             </motion.div>
 

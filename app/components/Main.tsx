@@ -25,31 +25,43 @@ const Main: React.FC = () => {
       },
       {
          text: "en",
-      },{
+      },
+      {
          text: "ligne",
-      },{
+      },
+      {
          text: "à",
-      },{
+      },
+      {
          text: "vos",
-      },{
+      },
+      {
          text: "clients",
-      },{
+      },
+      {
          text: "et",
-      },{
+      },
+      {
          text: "augmentez",
-      },{
+      },
+      {
          text: "votre",
-      },{
+      },
+      {
          text: "visibilité",
-      },{
+      },
+      {
          text: "grâce",
-      },{
+      },
+      {
          text: "à",
-      },{
+      },
+      {
          text: "notre",
-      },{
+      },
+      {
          text: "expertise",
-         className: "text-green-400"
+         className: "text-green-400",
       },
    ];
 

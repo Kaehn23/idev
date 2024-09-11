@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import About from "./components/About";
 import Services from "./components/Services";
 import ScrollToTop from "./components/ui/ScrollToTop";
+import Footer from "./components/Footer"
 
 export default function Home() {
    return (
@@ -36,7 +37,9 @@ export default function Home() {
             <Services />
             <ScrollToTop />
          </main>
-         <footer>{/* <Footer /> */}</footer>
+         <footer>
+            <Footer/>
+         </footer>
       </body>
    );
 }
