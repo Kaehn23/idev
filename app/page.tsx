@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import About from "./components/About";
+import Method from "./components/Method"
 import ScrollToTop from "./components/ui/ScrollToTop"
 
 export default function Home() {
@@ -33,6 +34,7 @@ export default function Home() {
          <main>
             <Main />
             <About/>
+           
             <ScrollToTop/>
          </main>
          <footer>
