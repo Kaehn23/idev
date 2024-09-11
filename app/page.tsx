@@ -1,10 +1,9 @@
 import Head from "next/head";
-import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Main from "./components/Main";
 import About from "./components/About";
-import Method from "./components/Method"
-import ScrollToTop from "./components/ui/ScrollToTop"
+import Services from "./components/Services";
+import ScrollToTop from "./components/ui/ScrollToTop";
 
 export default function Home() {
    return (
@@ -33,13 +32,11 @@ export default function Home() {
          </header>
          <main>
             <Main />
-            <About/>
-           
-            <ScrollToTop/>
+            <About />
+            <Services />
+            <ScrollToTop />
          </main>
-         <footer>
-            {/* <Footer /> */}
-         </footer>
+         <footer>{/* <Footer /> */}</footer>
       </body>
    );
 }

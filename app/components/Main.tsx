@@ -5,10 +5,53 @@ import React from "react";
 import Link from "next/link";
 import { AuroraBackground } from "./ui/aurora-background";
 import { FlipWords } from "./ui/flip-word";
-import { HeroHighlight, Highlight } from "./ui/hero-highlight";
+import { Highlight } from "./ui/hero-highlight";
+import { TypewriterEffectSmooth } from "./ui/Typewriter-effect";
 
 const Main: React.FC = () => {
    const words = ["Vendez.", "Fidélisez.", "Convertissez."];
+   const words2 = [
+      {
+         text: "Offrez",
+      },
+      {
+         text: "une",
+      },
+      {
+         text: "agréable",
+      },
+      {
+         text: "expérience",
+      },
+      {
+         text: "en",
+      },{
+         text: "ligne",
+      },{
+         text: "à",
+      },{
+         text: "vos",
+      },{
+         text: "clients",
+      },{
+         text: "et",
+      },{
+         text: "augmentez",
+      },{
+         text: "votre",
+      },{
+         text: "visibilité",
+      },{
+         text: "grâce",
+      },{
+         text: "à",
+      },{
+         text: "notre",
+      },{
+         text: "expertise",
+         className: "text-green-400"
+      },
+   ];
 
    // Variants for staggered animations
    const containerVariants = {
@@ -64,11 +107,12 @@ const Main: React.FC = () => {
                >
                   <FlipWords words={words} />
                </motion.div>
-
-               <motion.div
-                  variants={itemVariants}
-                  className="flex space-x-7"
-               >
+               <div>
+                  <h1 className="m-4">
+                     <TypewriterEffectSmooth words={words2} />
+                  </h1>
+               </div>
+               <motion.div variants={itemVariants} className="flex space-x-7">
                   <motion.button
                      className="bg-green-300 text-black dark:bg-white rounded-full w-fit hover:scale-110  dark:text-black px-4 py-2"
                      whileHover={{

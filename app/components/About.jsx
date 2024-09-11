@@ -2,16 +2,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Method from "./Method";
-import { FlipWords } from "./ui/flip-word";
-
-
 
 const About = () => {
-   const words = ["unique.", "vibrant.", "personnalisé."];
-
-
    return (
-      
       <motion.div
          id="about"
          className="relative w-full min-h-screen p-2 flex items-center justify-center py-4"
@@ -25,7 +18,7 @@ const About = () => {
          animate={{ opacity: 1 }}
          transition={{ duration: 0.8 }}
       >
-         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-5xl">
+         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-5xl mx-auto">
             {/* Left Section */}
             <motion.div
                className="md:row-span-3 flex justify-center items-center"
@@ -65,16 +58,18 @@ const About = () => {
                      Développeur spécialisé dans le Web, j'accompagne les
                      entreprises dans leur succès sur internet.
                   </h3>
-                  <p>
+                  <p className="pb-2">
                      J'applique un soin tout particulier à rendre chaque {""}
-                     <span className="font-bold">projet <FlipWords words={words} className="font-bold" /></span> 
+                     <span className="font-bold text-xl">projet unique. </span>
                   </p>
                   <p>
                      Le site internet d'une entreprise la reflète, je mets donc
-                     en œuvre toutes mes compétences pour réaliser des sites
-                     rapides, optimisés pour le SEO, et adaptés à toute taille
-                     d'écran (responsive).
+                     en œuvre toutes mes compétences pour réaliser des sites 
+                     <span className="font-bold text-xl"> rapides</span>, optimisés pour le <span className="font-bold text-xl">SEO</span>, et <span className="font-bold text-xl">responsive</span> (adaptés à toute taille
+                     d'écrans).
+               
                   </p>
+                  <h4 className="font-bold pt-2">Voici ma méthode en trois points : </h4>
                </article>
             </motion.div>
 
