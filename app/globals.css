@@ -42,3 +42,30 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.3); /* Bordure légère */
   padding: 10px; /* Espacement interne */
 }
+
+.glass-effect-green {
+  background: rgba(52, 248, 13, 0.1); /* Arrière-plan semi-transparent */
+  border-radius: 21px; /* Coins arrondis */
+  backdrop-filter: blur(2px); /* Effet de flou */
+  -webkit-backdrop-filter: blur(10px); /* Support pour Safari */
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Bordure légère */
+  padding: 10px; /* Espacement interne */
+}
+
+.glass-effect-yellow {
+  background: rgba(230, 255, 1, 0.308); /* Arrière-plan semi-transparent */
+  border-radius: 21px; /* Coins arrondis */
+  backdrop-filter: blur(2px); /* Effet de flou */
+  -webkit-backdrop-filter: blur(10px); /* Support pour Safari */
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Bordure légère */
+  padding: 10px; /* Espacement interne */
+}
+
+.glass-effect-orange {
+  background: rgba(243, 179, 3, 0.39); /* Arrière-plan semi-transparent */
+  border-radius: 21px; /* Coins arrondis */
+  backdrop-filter: blur(2px); /* Effet de flou */
+  -webkit-backdrop-filter: blur(10px); /* Support pour Safari */
+  border: 2px solid rgba(255, 255, 255, 0.3); /* Bordure légère */
+  padding: 10px; /* Espacement interne */
+}

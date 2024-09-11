@@ -102,6 +102,17 @@ const Navbar = () => {
                         Services
                      </motion.li>
                   </Link>
+                  <Link href="/#faq">
+                     <motion.li
+                        className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
+                        whileHover={{
+                           scale: 1.2,
+                           transition: { type: "spring", stiffness: 100 },
+                        }}
+                     >
+                        FAQ
+                     </motion.li>
+                  </Link>
                   <Link href="/#projects">
                      <motion.li
                         className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"

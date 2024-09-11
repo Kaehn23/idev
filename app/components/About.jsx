@@ -7,7 +7,7 @@ const About = () => {
    return (
       <motion.div
          id="about"
-         className="relative w-full min-h-screen p-2 flex items-center justify-center py-4"
+         className="relative w-full min-h-screen p-2 flex items-center justify-center py-4 pt-24"
          style={{
             backgroundImage: `url("/assets/bg1.svg")`,
             backgroundSize: "cover",
