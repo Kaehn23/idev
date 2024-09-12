@@ -29,7 +29,7 @@ const About = () => {
                <motion.img
                   src="/assets/navLogo2.png"
                   alt="logo j-idev"
-                  className="rounded-full shadow-xl shadow-green-300 hover:scale-110 ease-in duration-500"
+                  className="rounded-full shadow-xl shadow-green-200 hover:scale-110 ease-in duration-500"
                   style={{ maxWidth: "150px", maxHeight: "150px" }}
                />
             </motion.div>
@@ -41,7 +41,7 @@ const About = () => {
                animate={{ opacity: 1, y: 0 }}
                transition={{ duration: 0.8, delay: 0.4 }}
             >
-               <h1 className="text-3xl font-bold">
+               <h1 className="text-3xl font-bold border-black">
                   J-iDev, votre partenaire vers la réussite
                </h1>
             </motion.div>
@@ -53,9 +53,7 @@ const About = () => {
                animate={{ opacity: 1, y: 0 }}
                transition={{ duration: 0.8, delay: 0.6 }}
             >
-               <motion.article className="text-lg text-gray-600 text-left initial={{ opacity: 0, y: 20 }}
-               animate={{ opacity: 1, y: 0 }}
-               transition={{ duration: 0.8, delay: 0.6 }}">
+               <motion.article className="text-lg text-gray-600 text-left ">
                   <h3 className="font-semibold mb-2">
                      Développeur spécialisé dans le Web, j'accompagne les
                      entreprises dans leur succès sur internet.
