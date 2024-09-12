@@ -5,6 +5,36 @@ import { HoverEffect } from "./ui/card-hover-effect";
 import { FlipWords } from "./ui/flip-word";
 import { FaArrowTurnDown } from "react-icons/fa6";
 
+// Define Framer Motion variants
+const containerVariants = {
+   hidden: { opacity: 0, scale: 0.9 },
+   visible: {
+      opacity: 1,
+      scale: 1,
+      transition: {
+         delay: 0.3,
+         duration: 0.8,
+         when: "beforeChildren",
+         staggerChildren: 0.2,
+      },
+   },
+};
+
+const itemVariants = {
+   hidden: { opacity: 0, y: 20 },
+   visible: { opacity: 1, y: 0 },
+};
+
+// const bounceVariants = {
+//    hover: {
+//       scale: 1.2,
+//       transition: {
+//          duration: 0.3,
+//          yoyo: Infinity, // Creates a bouncing effect
+//       },
+//    },
+// };
+
 function Services() {
    const words = ["simple.", "efficace.", "rentable."];
 
@@ -61,28 +91,42 @@ function Services() {
          animate={{ opacity: 1 }}
          transition={{ duration: 0.8 }}
       >
-         <div className="max-w-5xl mx-auto px-8 pt-20">
-            <div className="text-center text-3xl">
+         <motion.div
+            className="max-w-5xl mx-auto px-8 pt-20"
+            variants={containerVariants}
+            initial="hidden"
+            animate="visible"
+         >
+            <motion.div
+               className="text-center text-3xl"
+               variants={itemVariants}
+            >
                Être <span className="font-semibold">présent</span> sur internet
                n'a jamais été aussi{" "}
                <FlipWords className="font-semibold" words={words} />
-            </div>
-            <h1 className="text-center mt-4">
+            </motion.div>
+            <motion.h1 className="text-center mt-4" variants={itemVariants}>
                Je propose divers services de{" "}
                <span className="font-bold">création de sites web</span>, de{" "}
                <span className="font-bold">référencement (SEO)</span>, mais
                aussi la{" "}
                <span className="font-bold">maintenance & la refonte</span> de
                votre site actuel !
-            </h1>
+            </motion.h1>
 
-            <HoverEffect items={projects} />
-            <div className="text-align text-center m-4">
+            <motion.div variants={itemVariants}>
+               <HoverEffect items={projects} />
+            </motion.div>
+
+            <motion.div
+               className="text-align text-center m-4"
+               variants={itemVariants}
+            >
                Pour toutes demandes d'informations supplémentaire, n'hesitez pas
                à me contacter par{" "}
                <span
                   href="tel:0640287845"
-                  className="font-bold border-b-2 cursor-pointer
+                  className="font-bold border-b-2 border-green-200 cursor-pointer
             "
                >
                   téléphone
@@ -90,33 +134,46 @@ function Services() {
                , par{" "}
                <span
                   onClick={handleMailClick}
-                  className="font-bold border-b-2 cursor-pointer"
+                  className="font-bold border-b-2  border-orange-400 cursor-pointer"
                >
                   mail
                </span>
                , ou en remplissant le{" "}
                <span
                   href="#contact"
-                  className="font-bold border-b-black cursor-pointer"
+                  className="font-bold border-b-2 border-yellow-200 cursor-pointer"
                >
                   formulaire de contact
                </span>{" "}
                plus bas!
-            </div>
-            <div className="text-center text-2xl">
+            </motion.div>
+
+            <motion.div
+               className="text-center text-2xl"
+               variants={itemVariants}
+            >
                Sinon, il y a aussi la{" "}
                <span className="font-bold">Foire Aux Questions (FAQ)</span>{" "}
-            </div>
-            <div className="flex items-center justify-center m-4">
+            </motion.div>
+
+            <motion.div
+               className="flex items-center justify-center m-4"
+               variants={itemVariants}
+            >
                <motion.div
-                  animate={{ rotateY: 360 }}
-                  transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
-                  style={{ display: "inline-block" }} // icon stays visible during the rotation
+                  animate={{ rotateY: 360 }} 
+                  transition={{
+                     duration: 1, 
+                     repeat: Infinity,
+                     repeatDelay: 3,
+                     ease: "linear", 
+                  }}
+                  style={{ display: "inline-block" }} // stays visible during the rotation
                >
                   <FaArrowTurnDown size={40} />
                </motion.div>
-            </div>
-         </div>
+            </motion.div>
+         </motion.div>
       </motion.div>
    );
 }
