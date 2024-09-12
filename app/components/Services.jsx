@@ -18,13 +18,13 @@ function Services() {
             "Rapide et optimisé",
             "Hébergement offert pendant un an",
             "6 mois de maintenance offerte",
-            "Support 7j/7"
+            "Support 7j/7",
          ],
       },
       {
          title: "SEO",
          description: [
-            "Optimisation du référencement naturel (SEO)",
+            "Optimisation du référencement naturel",
             "Audit des mots clés",
             "Optimisation de la structure du site",
             "Optimisation des URLs",
@@ -35,14 +35,17 @@ function Services() {
          title: "Maintenance",
          description: [
             "Surveillance régulière des performances",
-            "Corrections de bugs et mises à jour",
-            "Refonte des designs existants",
             "Mise à jour de contenu",
+            "Corrections de bugs",
+            "Refonte des designs existants",
             "Refactorisation",
-            
          ],
       },
    ];
+
+   const handleMailClick = () => {
+      window.location.href = "mailto:jeremy.iparraguirre@gmail.com";
+   };
 
    return (
       <motion.div
@@ -72,15 +75,47 @@ function Services() {
                <span className="font-bold">maintenance & la refonte</span> de
                votre site actuel !
             </h1>
-            
 
             <HoverEffect items={projects} />
-            <div className="text-align text-center m-4">Pour toutes demandes d'informations supplémentaire, n'hesitez pas à me contacter par <span className="font-bold
-            ">téléphone</span>, par <span className="font-bold">mail</span>, ou en remplissant le <span className="font-bold">formulaire de contact</span> plus bas!
-                {/* <br className="text-justify m-4"/>Je vous repondrai dés que possible! */}
+            <div className="text-align text-center m-4">
+               Pour toutes demandes d'informations supplémentaire, n'hesitez pas
+               à me contacter par{" "}
+               <span
+                  href="tel:0640287845"
+                  className="font-bold border-b-2 cursor-pointer
+            "
+               >
+                  téléphone
+               </span>
+               , par{" "}
+               <span
+                  onClick={handleMailClick}
+                  className="font-bold border-b-2 cursor-pointer"
+               >
+                  mail
+               </span>
+               , ou en remplissant le{" "}
+               <span
+                  href="#contact"
+                  className="font-bold border-b-black cursor-pointer"
+               >
+                  formulaire de contact
+               </span>{" "}
+               plus bas!
             </div>
-            <div className="text-center text-2xl">Sinon, il y a aussi la <span className="font-bold">Foire Aux Questions (FAQ)</span> </div>
-            <div className="flex items-center justify-center m-4"><FaArrowTurnDown size={40}/></div>
+            <div className="text-center text-2xl">
+               Sinon, il y a aussi la{" "}
+               <span className="font-bold">Foire Aux Questions (FAQ)</span>{" "}
+            </div>
+            <div className="flex items-center justify-center m-4">
+               <motion.div
+                  animate={{ rotateY: 360 }}
+                  transition={{ duration: 2, repeat: Infinity, ease: "linear" }}
+                  style={{ display: "inline-block" }} // icon stays visible during the rotation
+               >
+                  <FaArrowTurnDown size={40} />
+               </motion.div>
+            </div>
          </div>
       </motion.div>
    );

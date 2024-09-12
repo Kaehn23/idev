@@ -76,6 +76,7 @@ const Navbar = () => {
                            scale: 1.2,
                            transition: { type: "spring", stiffness: 100 },
                         }}
+                        whileTap={{ scale: 0.95 }}
                      >
                         Accueil
                      </motion.li>
@@ -87,6 +88,7 @@ const Navbar = () => {
                            scale: 1.2,
                            transition: { type: "spring", stiffness: 100 },
                         }}
+                        whileTap={{ scale: 0.95 }}
                      >
                         À propos
                      </motion.li>
@@ -98,6 +100,7 @@ const Navbar = () => {
                            scale: 1.2,
                            transition: { type: "spring", stiffness: 100 },
                         }}
+                        whileTap={{ scale: 0.95 }}
                      >
                         Services
                      </motion.li>
@@ -109,6 +112,7 @@ const Navbar = () => {
                            scale: 1.2,
                            transition: { type: "spring", stiffness: 100 },
                         }}
+                        whileTap={{ scale: 0.95 }}
                      >
                         FAQ
                      </motion.li>
@@ -120,6 +124,7 @@ const Navbar = () => {
                            scale: 1.2,
                            transition: { type: "spring", stiffness: 100 },
                         }}
+                        whileTap={{ scale: 0.95 }}
                      >
                         Projets
                      </motion.li>
@@ -131,6 +136,7 @@ const Navbar = () => {
                            scale: 1.2,
                            transition: { type: "spring", stiffness: 100 },
                         }}
+                        whileTap={{ scale: 0.95 }}
                      >
                         Contact
                      </motion.li>
