@@ -4,10 +4,12 @@ import Main from "./components/Main";
 import About from "./components/About";
 import Services from "./components/Services";
 import ScrollToTop from "./components/ui/ScrollToTop";
+import FAQ from "./components/FAQ";
 import Footer from "./components/Footer"
 
 export default function Home() {
    return (
+      
       <body>
          <Head>
             <title>Sud Décapage - Entreprise de décapage, aérogommage</title>
@@ -35,11 +37,13 @@ export default function Home() {
             <Main />
             <About />
             <Services />
+            <FAQ/>
             <ScrollToTop />
          </main>
          <footer>
             <Footer/>
          </footer>
       </body>
+      
    );
 }

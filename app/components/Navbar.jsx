@@ -195,6 +195,11 @@ const Navbar = () => {
                            Services
                         </li>
                      </Link>
+                     <Link href="/#faq" onClick={handleLinkClick}>
+                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-900">
+                           FAQ
+                        </li>
+                     </Link>
                      <Link href="/#projects" onClick={handleLinkClick}>
                         <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-900">
                            Projets

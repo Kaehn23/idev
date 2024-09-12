@@ -2,10 +2,13 @@ const svgToDataUri = require("mini-svg-data-uri");
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
+
+const {nextui} = require("@nextui-org/theme");
  
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
+    "./node_modules/@nextui-org/theme/dist/components/accordion.js",
     "./src/**/*.{html,js}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -30,6 +33,7 @@ module.exports = {
     },
   },
  plugins: [
+  [nextui()],
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
       matchUtilities(

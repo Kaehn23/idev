@@ -61,7 +61,7 @@ const Main: React.FC = () => {
       },
       {
          text: "expertise",
-         className: "text-green-400",
+         className: "text-green-400 font-bold",
       },
    ];
 
@@ -85,10 +85,10 @@ const Main: React.FC = () => {
    return (
       <>
          <Head>
-            <title>Sud Décapage - Entreprise de décapage, aérogommage</title>
+            <title>J-iDev - Création de sites web, maintenance & SEO</title>
             <meta
                name="description"
-               content="Bienvenue sur notre site, nous proposons nos services de décapage multi-supports, aérogommage, sablage, décapage de volets, portails, pièces de voitures, meubles, façades, etc."
+               content="Bienvenue sur notre site, nous proposons nos services de création de sites webs responsive, optimisés et rapide. Nous effectuons aussi des refontes & de la maintenance sur des sites existants. Nous offrons aussi un service de SEO."
             />
          </Head>
 

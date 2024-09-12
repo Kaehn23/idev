@@ -53,7 +53,9 @@ const About = () => {
                animate={{ opacity: 1, y: 0 }}
                transition={{ duration: 0.8, delay: 0.6 }}
             >
-               <article className="text-lg text-gray-600 text-left">
+               <motion.article className="text-lg text-gray-600 text-left initial={{ opacity: 0, y: 20 }}
+               animate={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.8, delay: 0.6 }}">
                   <h3 className="font-semibold mb-2">
                      Développeur spécialisé dans le Web, j'accompagne les
                      entreprises dans leur succès sur internet.
@@ -74,7 +76,7 @@ const About = () => {
                   <h4 className="font-bold pt-2">
                      Voici ma méthode en trois points :{" "}
                   </h4>
-               </article>
+               </motion.article>
             </motion.div>
 
             {/* Full Width Section */}
