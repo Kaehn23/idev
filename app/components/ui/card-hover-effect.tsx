@@ -1,8 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion"; // Importation correcte de framer-motion
-
-// Importe correctement la fonction `cn` de gestion des classes (si nécessaire)
+import { motion, AnimatePresence } from "framer-motion"; 
 import { cn } from "@/lib/utils"; 
 
 export const HoverEffect = ({
@@ -11,7 +9,7 @@ export const HoverEffect = ({
 }: {
   items: {
     title: string;
-    description: string;
+    description: string | string[]; // Description peut être un string ou un tableau de strings
   }[];
   className?: string;
 }) => {
@@ -26,7 +24,7 @@ export const HoverEffect = ({
     >
       {items.map((item, idx) => (
         <div
-          key={idx} // Utilise `idx` comme clé si le lien est supprimé
+          key={idx}
           className="relative group block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
           onMouseLeave={() => setHoveredIndex(null)}
@@ -50,7 +48,7 @@ export const HoverEffect = ({
           </AnimatePresence>
           <Card>
             <CardTitle>{item.title}</CardTitle>
-            <CardDescription>{item.description}</CardDescription>
+            <CardDescription description={item.description} />
           </Card>
         </div>
       ))}
@@ -94,20 +92,31 @@ export const CardTitle = ({
 };
 
 export const CardDescription = ({
+  description,
   className,
-  children,
 }: {
+  description: string | string[]; // Description est soit un string, soit un tableau de strings
   className?: string;
-  children: React.ReactNode;
 }) => {
-  return (
+  return typeof description === "string" ? (
     <p
       className={cn(
-        "mt-8 text-zinc-400 tracking-wide leading-relaxed text-sm",
+        "mt-8 text-center text-black tracking-wide leading-relaxed text-sm",
         className
       )}
     >
-      {children}
+      {description}
     </p>
+  ) : (
+    <ul
+      className={cn(
+        "mt-8 text-center text-black tracking-wide leading-relaxed text-sm list-disc list-inside",
+        className
+      )}
+    >
+      {description.map((desc, index) => (
+        <li key={index}>{desc}</li>
+      ))}
+    </ul>
   );
 };

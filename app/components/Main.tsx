@@ -9,7 +9,7 @@ import { Highlight } from "./ui/hero-highlight";
 import { TypewriterEffectSmooth } from "./ui/Typewriter-effect";
 
 const Main: React.FC = () => {
-   const words = ["Vendez.", "Fidélisez.", "Convertissez."];
+   const words = ["Fidélisez.", "Vendez.", "Convertissez."];
    const words2 = [
       {
          text: "Offrez",
