@@ -14,9 +14,13 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
   };
 
   return (
-    <details className="group w-full" open={isOpen} onToggle={handleToggle}>
+    <details
+      className="group w-full"
+      open={isOpen}
+      onToggle={handleToggle}
+    >
       <summary
-        className="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900 group-open:bg-gray-200"
+        className="flex cursor-pointer list-none items-center justify-between p-4 md:p-6 text-base md:text-lg font-medium text-secondary-900 group-open:bg-gray-200"
       >
         {title}
         <div className="text-secondary-500">
@@ -26,7 +30,9 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="currentColor"
-            className={`block h-5 w-5 transition-all duration-300 ${isOpen ? 'rotate-180' : 'rotate-0'}`}
+            className={`block h-4 w-4 md:h-5 md:w-5 transition-all duration-300 ${
+              isOpen ? 'rotate-180' : 'rotate-0'
+            }`}
           >
             <path
               strokeLinecap="round"
@@ -36,7 +42,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
           </svg>
         </div>
       </summary>
-      <div className="border-t border-t-gray-100 p-4 text-secondary-500 min-h-[50px]">
+      <div className="border-t border-t-gray-100 p-4 md:p-6 text-secondary-500 min-h-[50px] text-sm md:text-base">
         {content}
       </div>
     </details>
@@ -45,16 +51,16 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
 
 const Accordion: React.FC = () => {
   return (
-    <div className="mx-auto max-w-4xl">
+    <div className="mx-auto max-w-full md:max-w-3xl lg:max-w-4xl p-4 md:p-8">
       <div className="divide-y divide-gray-100 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-sm">
         <AccordionItem title="Combien de temps faut-il pour créer mon site ?" content="Les délais varient d'une à trois semaines en général, suivant la complexité du projet demandé mais aussi de votre reactivité à fournir les éléments nécessaires à la création de celui-ci!" />
-        <AccordionItem title="Combien ça coûte ?" content="Le coût varie simplement en fonction de la compléxité et des fonctionnalités demandées. Les devis sont gratuits. " />
+        <AccordionItem title="Combien ça coûte ?" content="Le coût varie simplement en fonction de la compléxité et des fonctionnalités demandées. Les devis sont gratuits." />
         <AccordionItem title="Comment faire pour modifier le contenu de mon site ?" content="Toute modification est possible pendant un délais de deux semaines aprés livraison du produit. Ensuite, chaque modification sera payante, au forfait, ou à la tâche. A nous d'en discuter" />
         <AccordionItem title="C'est chouette un beau site, mais à long-terme ?" content="J'assure une maintenance offerte pendant 6 mois. Passé ce delais, nous trouverons une offre de forfait adaptée à vos besoins." />
         <AccordionItem title="Quels sont les avantages d'un site responsive ?" content="Un site responsive s'adapte à toutes les tailles d'écran, pc, mobile, tablettes. Il offre une experience utilisateur optimale et permet d'atteindre un public plus large ; d'améliorer le réferencement, et de renforcer votre image de marque." />
-        <AccordionItem title="Le site est-il optimisé pour les moteurs de recherche ? " content="This is the fifth item's accordion body." />
+        <AccordionItem title="Le site est-il optimisé pour les moteurs de recherche ?" content="This is the fifth item's accordion body." />
         <AccordionItem title="Pourquoi un site codé et pas un CMS comme WordPress ?" content="Un site codé sera plus fiable, plus rapide, plus performant. Personne n'a envie d'attendre qu'un site se charge. Ici, on fait du sur-mesure efficace!" />
-        <AccordionItem title="Je fais comment en cas de problèmes sur le site ? " content="Vous me contactez, par mail ou téléphone, je suis disponible 7j/7 pour assurer la maintenance. Puis on trouve une solution." />
+        <AccordionItem title="Je fais comment en cas de problèmes sur le site ?" content="Vous me contactez, par mail ou téléphone, je suis disponible 7j/7 pour assurer la maintenance. Puis on trouve une solution." />
       </div>
     </div>
   );

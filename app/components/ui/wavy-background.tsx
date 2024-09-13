@@ -66,7 +66,7 @@ export const WavyBackground = ({
       "#818cf8",
       "#c084fc",
       "#e879f9",
-      '#f0e91fff',
+      "#22d3ee",
       
    ];
    const drawWave = (n: number) => {
