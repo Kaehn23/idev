@@ -92,7 +92,7 @@ const Main: React.FC = () => {
             />
          </Head>
 
-         <AuroraBackground className="z-10">
+         <AuroraBackground >
             <motion.div
             
                initial="hidden"

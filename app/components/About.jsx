@@ -42,7 +42,7 @@ const About = () => {
                transition={{ duration: 0.8, delay: 0.4 }}
             >
                <h1 className="text-3xl font-bold border-black">
-                  J-iDev, votre partenaire vers la <span className="text-green-300">réussite</span>
+                  J-iDev, votre partenaire vers la <span className="text-green-300 border-b-4 border-green-300">réussite</span>
                </h1>
             </motion.div>
 
@@ -60,15 +60,15 @@ const About = () => {
                   </h3>
                   <p className="pb-2">
                      J'applique un soin tout particulier à rendre chaque {""}
-                     <span className="font-bold text-xl">projet unique. </span>
+                     <span className="font-bold text-xl border-b-4 border-orange-300">projet unique. </span>
                   </p>
                   <p>
                      Le site internet d'une entreprise la reflète, je mets donc
                      en œuvre toutes mes compétences pour réaliser des sites
-                     <span className="font-bold text-xl"> rapides</span>,
+                     <span className="font-bold text-xl border-b-4 border-yellow-300"> rapides</span>,
                      optimisés pour le{" "}
-                     <span className="font-bold text-xl">SEO</span>, et{" "}
-                     <span className="font-bold text-xl">responsive</span>{" "}
+                     <span className="font-bold text-xl border-b-4 border-green-300">SEO</span>, et{" "}
+                     <span className="font-bold text-xl border-b-4 border-blue-300">responsive</span>{" "}
                      (adaptés à toute taille d'écrans).
                   </p>
                   <h4 className="font-bold pt-2">
