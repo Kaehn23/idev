@@ -30,8 +30,8 @@ function FAQ() {
             <Accordion />
 
             <div className="flex flex-items justify-center text-2xl font-semibold text-center pt-4 m-2">
-               N'hesitez pas à me passer un coup de téléphone pour plus
-               d'informations
+               N'hesitez pas à me&nbsp; <span className="font-bold text-green-300">contacter&nbsp;</span> pour plus&nbsp; <span className="font-bold text-green-300">d'informations</span>
+               
             </div>
          </div>
       </motion.div>
