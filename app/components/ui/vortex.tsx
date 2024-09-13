@@ -37,7 +37,7 @@ export const Vortex = (props: VortexProps) => {
    let center: [number, number] = [0, 0];
 
    // Define hues for blue, yellow, green, and orange
-   const hues = [30, 60, 120, 180, 240];
+   const hues = [30, 60, 120, 180];
 
    const noiseSteps = 3;
    const xOff = 0.00125;

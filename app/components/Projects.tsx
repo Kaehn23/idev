@@ -3,16 +3,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Vortex } from "./ui/vortex";
 
-function Projects() {
 
-    
+function Projects() {
    return (
-      <div
-         id="projects"
-         className="w-100% mx-auto   h-screen overflow-hidden"
-      >
+      <div id="projects" className="w-100% mx-auto   h-screen overflow-hidden">
+        
          <Vortex
-         
             backgroundColor="white"
             rangeY={300}
             particleCount={75}
@@ -20,11 +16,10 @@ function Projects() {
             baseSpeed={0.2}
             rangeRadius={10}
             baseRadius={4}
-            
             className="flex items-center flex-col justify-center px-2 md:px-10  py-4 w-full h-full"
          >
             <h2 className="text-black text-2xl md:text-6xl font-bold text-center">
-               The hell is this?
+               Retrouvez mes derniers projets
             </h2>
             <p className="text-black text-sm md:text-2xl max-w-xl mt-6 text-center">
                This is chemical burn. It&apos;ll hurt more than you&apos;ve ever

@@ -61,7 +61,7 @@ const Footer = () => {
                   <div className="grid grid-cols-2 sm:grid-cols-3 gap-6 md:gap-12">
                      {/* Explore */}
                      <div className="flex flex-col gap-2">
-                        <div className="font-bold uppercase text-[#34f80d] pb-2">
+                        <div className="font-bold uppercase text-green-300 pb-2">
                            Explorez
                         </div>
                         <Link href="#services" className="hover:underline">
@@ -74,7 +74,7 @@ const Footer = () => {
 
                      {/* L'Entreprise */}
                      <div className="flex flex-col gap-2">
-                        <div className="font-bold uppercase text-[#34f80d] pb-2">
+                        <div className="font-bold uppercase text-green-300 pb-2">
                            L'Entreprise
                         </div>
                         <Link href="#about" className="hover:underline">
@@ -90,7 +90,7 @@ const Footer = () => {
 
                      {/* Legal */}
                      <div className="flex flex-col gap-2">
-                        <div className="font-bold uppercase text-[#34f80d] pb-2">
+                        <div className="font-bold uppercase text-green-300 pb-2">
                            Legal
                         </div>
                         <Link href="#xxx" className="hover:underline">
