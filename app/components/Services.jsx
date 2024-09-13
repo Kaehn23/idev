@@ -101,16 +101,20 @@ function Services() {
                className="text-center text-3xl"
                variants={itemVariants}
             >
-               Être <span className="font-semibold">présent</span> sur internet
-               n'a jamais été aussi{" "}
-               <FlipWords className="font-semibold" words={words} />
+               Être{" "}
+               <span className="font-semibold text-green-400">présent</span> sur
+               internet n'a jamais été aussi{" "}
+               <FlipWords
+                  className="font-semibold text-orange-400"
+                  words={words}
+               />
             </motion.div>
             <motion.h1 className="text-center mt-4" variants={itemVariants}>
                Je propose divers services de{" "}
-               <span className="font-bold">création de sites web</span>, de{" "}
-               <span className="font-bold">référencement (SEO)</span>, mais
+               <span className="font-bold border-b-2 border-green-200 ">création de sites web</span>, de{" "}
+               <span className="font-bold border-b-2 border-yellow-200">référencement (SEO)</span>, mais
                aussi la{" "}
-               <span className="font-bold">maintenance & la refonte</span> de
+               <span className="font-bold border-b-2  border-orange-400">maintenance & la refonte</span> de
                votre site actuel !
             </motion.h1>
 
@@ -125,11 +129,10 @@ function Services() {
                Pour toutes demandes d'informations supplémentaire, n'hesitez pas
                à me contacter par{" "}
                <span
-                  
                   className="font-bold border-b-2 border-green-200 cursor-pointer
             "
                >
-                 <a href="tel:0674845013">téléphone</a> 
+                  <a href="tel:0674845013">téléphone</a>
                </span>
                , par{" "}
                <span
@@ -150,27 +153,30 @@ function Services() {
 
             <motion.div
                className="text-center text-2xl"
-               variants={itemVariants}
+               whileHover={{
+                  scale: 1.2,
+                  transition: { type: "spring", stiffness: 100 },
+               }}
             >
                Sinon, il y a aussi la{" "}
                <span className="font-bold">Foire Aux Questions (FAQ)</span>{" "}
             </motion.div>
 
             <motion.div
-               className="flex items-center justify-center m-4"
+               className="flex items-center justify-center m-2"
                variants={itemVariants}
             >
                <motion.div
-                  animate={{ rotateY: 360 }} 
+                  animate={{ rotateY: 360 }}
                   transition={{
-                     duration: 1, 
+                     duration: 1,
                      repeat: Infinity,
                      repeatDelay: 3,
-                     ease: "linear", 
+                     ease: "linear",
                   }}
                   style={{ display: "inline-block" }} // stays visible during the rotation
                >
-                  <FaArrowTurnDown size={40} />
+                  <FaArrowTurnDown size={40} className="m-4"/>
                </motion.div>
             </motion.div>
          </motion.div>

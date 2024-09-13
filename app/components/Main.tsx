@@ -110,7 +110,7 @@ const Main: React.FC = () => {
                </motion.div>
                <motion.div
                   variants={itemVariants}
-                  className="text-3xl md:text-7xl font-bold dark:text-white text-center pb-4"
+                  className="text-3xl md:text-7xl font-bold dark:text-white text-center pb-4 "
                >
                   Attirez plus de clients :
                </motion.div>
@@ -118,7 +118,7 @@ const Main: React.FC = () => {
                   variants={itemVariants}
                   className="text-3xl md:text-7xl font-bold dark:text-white text-center pb-4"
                >
-                  <FlipWords words={words} />
+                  <FlipWords words={words} className="text-orange-500 border-b-8 border-orange-300" />
                </motion.div>
                <div>
                   <h1 className="m-4">

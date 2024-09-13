@@ -42,7 +42,7 @@ const About = () => {
                transition={{ duration: 0.8, delay: 0.4 }}
             >
                <h1 className="text-3xl font-bold border-black">
-                  J-iDev, votre partenaire vers la réussite
+                  J-iDev, votre partenaire vers la <span className="text-green-300">réussite</span>
                </h1>
             </motion.div>
 
