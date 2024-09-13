@@ -17,6 +17,7 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      scrollBehavior: 'smooth',  
       animation: {
         aurora: "aurora 60s linear infinite",
       },

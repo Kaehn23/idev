@@ -50,13 +50,13 @@ const Navbar = () => {
    return (
       <div
          style={{ backgroundColor: "rgba(128,128,128,0.5)" }}
-         className={
+         className={ 
             shadow
                ? "fixed w-full h-20 shadow-xl z-[100] shadow-transition"
                : "fixed w-full h-20 z-[100]"
          }
       >
-         <div className="flex justify-between md:justify-center items-center w-[full] h-full px-2 2xl:px-16 glass-effect-bar">
+         <div className="flex justify-between md:justify-center items-center w-[full] h-full px-2 2xl:px-16 glass-effect-bar scroll-smooth">
             <div className="block md:hidden">
                <Link href="/#home">
                   <Image
@@ -69,7 +69,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex">
                <ul style={{ color: "#FFFFFF" }} className="flex space-x-4">
-                  <Link href="/">
+                  <Link href="#home">
                      <motion.li
                         className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
                         whileHover={{

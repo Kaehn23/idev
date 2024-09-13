@@ -94,10 +94,11 @@ const Main: React.FC = () => {
 
          <AuroraBackground>
             <motion.div
+            
                initial="hidden"
                whileInView="visible"
                variants={containerVariants}
-               className="relative flex flex-col gap-4 items-center justify-center px-4"
+               className="relative flex flex-col gap-4 items-center justify-center px-4 "
             >
                <motion.div
                   variants={itemVariants}

@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -13,6 +33,10 @@
     --background: #0a0a0a;
     --foreground: #ededed;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -35,7 +59,7 @@ body {
 }
 
 .glass-effect {
-  background: rgba(52, 248, 13, 0.1); /* Arrière-plan semi-transparent */
+  background: rgba(235,255,56,0.3); /* Arrière-plan semi-transparent */
   border-radius: 21px; /* Coins arrondis */
   backdrop-filter: blur(2px); /* Effet de flou */
   -webkit-backdrop-filter: blur(10px); /* Support pour Safari */
@@ -70,7 +94,7 @@ body {
   padding: 10px; /* Espacement interne */
 }
 .glass-effect-white {
-  background: rgb(224, 235, 184); /* Arrière-plan semi-transparent */
+  background: rgb(52, 248, 13, 0.1); /* Arrière-plan semi-transparent */
   border-radius: 21px; /* Coins arrondis */
   backdrop-filter: blur(2px); /* Effet de flou */
   -webkit-backdrop-filter: blur(10px); /* Support pour Safari */

@@ -125,11 +125,11 @@ function Services() {
                Pour toutes demandes d'informations supplémentaire, n'hesitez pas
                à me contacter par{" "}
                <span
-                  href="tel:0640287845"
+                  
                   className="font-bold border-b-2 border-green-200 cursor-pointer
             "
                >
-                  téléphone
+                 <a href="tel:0674845013">téléphone</a> 
                </span>
                , par{" "}
                <span
