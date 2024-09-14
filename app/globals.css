@@ -109,3 +109,12 @@ body {
   border: 2px solid rgba(0, 0, 0, 0.3); /* Bordure légère */
   padding: 10px; /* Espacement interne */
 }
+
+.glass-effect-neutral {
+  background: rgba(0, 0, 0, 0.151); /* Arrière-plan semi-transparent */
+  border-radius: 10px; /* Coins arrondis */
+  backdrop-filter: blur(2px); /* Effet de flou */
+  -webkit-backdrop-filter: blur(10px); /* Support pour Safari */
+  border: 1px solid rgba(0, 0, 0, 0.3); /* Bordure légère */  
+  padding: 10px; /* Espacement interne */
+}
