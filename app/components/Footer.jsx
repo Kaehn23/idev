@@ -49,7 +49,7 @@ const Footer = () => {
                         >
                            <MdOutlineMail size={20} />
                            <span className="font-semibold p-2 cursor-pointer">
-                              jeremy.iparraguirre@gmail.com
+                           jidev-contact@proton.me
                            </span>
                         </div>
                      </div>

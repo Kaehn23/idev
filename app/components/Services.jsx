@@ -74,7 +74,7 @@ function Services() {
    ];
 
    const handleMailClick = () => {
-      window.location.href = "mailto:jeremy.iparraguirre@gmail.com";
+      window.location.href = "mailto:jidev-contact@proton.me";
    };
 
    return (
