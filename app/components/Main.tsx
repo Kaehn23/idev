@@ -126,6 +126,7 @@ const Main: React.FC = () => {
                   </h1>
                </div>
                <motion.div variants={itemVariants} className="flex space-x-7">
+               <Link href="/#contact">
                   <motion.button
                      className="bg-green-300 text-black dark:bg-white rounded-full w-fit hover:scale-110  dark:text-black px-4 py-2"
                      whileHover={{
@@ -136,6 +137,7 @@ const Main: React.FC = () => {
                   >
                      Prendre contact
                   </motion.button>
+                  </Link>
 
                   <Link href="/#about">
                      <motion.button
