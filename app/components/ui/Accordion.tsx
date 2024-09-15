@@ -59,7 +59,7 @@ const Accordion: React.FC = () => {
         <AccordionItem title="C'est chouette un beau site, mais à long-terme ?" content="J'assure une maintenance offerte pendant 6 mois. Passé ce delais, nous trouverons une offre de forfait adaptée à vos besoins." />
         <AccordionItem title="Quels sont les avantages d'un site responsive ?" content="Un site responsive s'adapte à toutes les tailles d'écran, pc, mobile, tablettes. Il offre une experience utilisateur optimale et permet d'atteindre un public plus large ; d'améliorer le réferencement, et de renforcer votre image de marque." />
         <AccordionItem title="Le site est-il optimisé pour les moteurs de recherche ?" content="En effet, mes sites sont parfaitement optimisés pour augmenter le SEO naturel de Google." />
-        <AccordionItem title="Pourquoi un site codé et pas un CMS comme WordPress ?" content="Un site codé sera plus fiable, plus rapide, plus performant. Personne n'a envie d'attendre qu'un site se charge. Ici, on fait du sur-mesure efficace!" />
+        <AccordionItem title="Pourquoi un site codé et pas un CMS comme WordPress ?" content="Un site codé sera toujours plus fiable, plus rapide et plus performant. Personne n'a envie d'attendre qu'un site se charge. Ici, on fait du sur-mesure efficace!" />
         <AccordionItem title="Je fais comment en cas de problèmes sur le site ?" content="Vous me contactez, par mail ou téléphone, je suis disponible 7j/7 pour assurer la maintenance. Puis on trouve une solution." />
       </div>
     </div>

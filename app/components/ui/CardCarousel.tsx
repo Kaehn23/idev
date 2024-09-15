@@ -94,10 +94,10 @@ const CardCarousel: React.FC<CardCarouselProps> = ({ cards }) => {
   };
 
   return (
-    <div className="w-full mx-auto px-4 sm:px-6 md:px-12 max-w-[1240px]">
+    <div className="w-full mx-auto  px-4 sm:px-6 md:px-12 max-w-[1240px]">
       <Slider {...settings}>
         {cards.map((card, index) => (
-          <div key={index} className="px-2">
+          <div key={index} className="px-8 ">
             <CardComponent {...card} />
           </div>
         ))}

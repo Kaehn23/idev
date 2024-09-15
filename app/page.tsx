@@ -6,7 +6,7 @@ import Services from "./components/Services";
 import ScrollToTop from "./components/ui/ScrollToTop";
 import FAQ from "./components/FAQ";
 import Projects from "./components/Projects";
-
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Lenis from "./components/ui/lenis";
 
@@ -43,7 +43,7 @@ export default function Home() {
                <Services />
                <FAQ />
                <Projects/>
-              
+              <Contact/>
                <ScrollToTop />
             </main>
 

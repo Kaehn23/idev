@@ -118,3 +118,11 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.3); /* Bordure légère */  
   padding: 10px; /* Espacement interne */
 }
+.glass-effect-form {
+  background: rgba(179, 178, 178, 0.151); /* Arrière-plan semi-transparent */
+  border-radius: 10px; /* Coins arrondis */
+  backdrop-filter: blur(2px); /* Effet de flou */
+  -webkit-backdrop-filter: blur(10px); /* Support pour Safari */
+  border: 1px solid rgba(0, 0, 0, 0.3); /* Bordure légère */  
+  padding: 10px; /* Espacement interne */
+}

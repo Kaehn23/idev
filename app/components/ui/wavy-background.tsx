@@ -73,17 +73,18 @@ export const WavyBackground = ({
    const drawWave = (n: number) => {
       nt += getSpeed();
       for (i = 0; i < n; i++) {
-         ctx.beginPath();
-         ctx.lineWidth = waveWidth || 50;
-         ctx.strokeStyle = waveColors[i % waveColors.length];
-         for (x = 0; x < w; x += 5) {
-            var y = noise(x / 800, 0.3 * i, nt) * 100;
-            ctx.lineTo(x, y + h * 0.5); // adjust for height, currently at 50% of the container
-         }
-         ctx.stroke();
-         ctx.closePath();
+        ctx.beginPath();
+        ctx.lineWidth = waveWidth || 50;
+        ctx.strokeStyle = waveColors[i % waveColors.length];
+        for (x = 0; x < w; x += 5) {
+          // Adjust the divisor and amplitude to spread waves wider
+          var y = noise(x / 1000, 0.3 * i, nt) * 150; // Increase divisor and amplitude
+          ctx.lineTo(x, y + h * 0.5); // adjust for height, currently at 50% of the container
+        }
+        ctx.stroke();
+        ctx.closePath();
       }
-   };
+    };
 
    let animationId: number;
    const render = () => {
@@ -113,22 +114,24 @@ export const WavyBackground = ({
 
    return (
       <div
-         className={cn(
-            "h-screen flex flex-col items-center justify-center",
-            containerClassName
-         )}
+        className={cn(
+          "relative h-screen flex flex-col items-center justify-center",
+          containerClassName
+        )}
       >
-         <canvas
+        <div className="relative w-full h-full">
+          <canvas
             className="absolute inset-0 z-0"
             ref={canvasRef}
             id="canvas"
             style={{
-               ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
+              ...(isSafari ? { filter: `blur(${blur}px)` } : {}),
             }}
-         ></canvas>
-         <div className={cn("relative z-10", className)} {...props}>
+          ></canvas>
+          <div className={cn("relative z-10", className)} {...props}>
             {children}
-         </div>
+          </div>
+        </div>
       </div>
-   );
+    );
 };
