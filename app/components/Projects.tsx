@@ -82,7 +82,7 @@ function Projects() {
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
       >
         <h2 className="text-black text-2xl md:text-6xl font-bold text-center">
-          Retrouvez mes derniers projets
+          Retrouvez mes derniers projets de sites web
         </h2>
 
         <CardCarousel cards={cards} />

@@ -98,7 +98,7 @@ const Main: React.FC = () => {
                initial="hidden"
                whileInView="visible"
                variants={containerVariants}
-               className="relative flex flex-col gap-4 items-center justify-center px-4 "
+               className="relative flex flex-col gap-4 items-center justify-center px-4 pt-16 "
             >
                <motion.div
                   variants={itemVariants}

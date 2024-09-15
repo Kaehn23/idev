@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { HoverEffect } from "./ui/card-hover-effect";
 import { FlipWords } from "./ui/flip-word";
 import { FaArrowTurnDown } from "react-icons/fa6";
+import SVGLineGlowAnimate from "./ui/SVGLineGlowAnimate";
 
 // Define Framer Motion variants
 const containerVariants = {
@@ -111,11 +112,18 @@ function Services() {
             </motion.div>
             <motion.h1 className="text-center mt-4" variants={itemVariants}>
                Je propose divers services de{" "}
-               <span className="font-bold border-b-2 border-green-200 ">création de sites web</span>, de{" "}
-               <span className="font-bold border-b-2 border-yellow-200">référencement (SEO)</span>, mais
-               aussi la{" "}
-               <span className="font-bold border-b-2  border-orange-400">maintenance & la refonte</span> de
-               votre site actuel !
+               <span className="font-bold border-b-2 border-green-200 ">
+                  création de sites web
+               </span>
+               , de{" "}
+               <span className="font-bold border-b-2 border-yellow-200">
+                  référencement (SEO)
+               </span>
+               , mais aussi la{" "}
+               <span className="font-bold border-b-2  border-orange-400">
+                  maintenance & la refonte
+               </span>{" "}
+               de votre site actuel !
             </motion.h1>
 
             <motion.div variants={itemVariants}>
@@ -163,7 +171,7 @@ function Services() {
             </motion.div>
 
             <motion.div
-               className="flex items-center justify-center m-2"
+               className="flex flex-col items-center justify-center m-2"
                variants={itemVariants}
             >
                <motion.div
@@ -176,8 +184,31 @@ function Services() {
                   }}
                   style={{ display: "inline-block" }} // stays visible during the rotation
                >
-                  <FaArrowTurnDown size={40} className="m-4"/>
+                  <FaArrowTurnDown size={40} className="m-4" />
                </motion.div>
+               <div className="flex flex-col items-center gap-4 m-4">
+                  <SVGLineGlowAnimate
+                     movementDelay={0}
+                     id={1}
+                     baseWidth={300}
+                     initialGradientX={0}
+                     color="#A9F030"
+                  />
+                  <SVGLineGlowAnimate
+                     movementDelay={2000}
+                     id={2}
+                     baseWidth={450}
+                     initialGradientX={0}
+                     color="#ACF2B8"
+                  />
+                  <SVGLineGlowAnimate
+                     movementDelay={4000}
+                     id={3}
+                     baseWidth={400}
+                     initialGradientX={0}
+                     color="#A9F030"
+                  />
+               </div>
             </motion.div>
          </motion.div>
       </motion.div>

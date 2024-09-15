@@ -7,7 +7,7 @@ function FAQ() {
    return (
       <motion.div
          id="faq"
-         className="relative w-full min-h-screen p-2 flex items-center justify-center py-4 pt-16 "
+         className="relative w-full min-h-screen p-2 flex items-center justify-center py-4 pt-20 "
          style={{
             backgroundImage: `url("/assets/bg3.svg")`,
             backgroundSize: "cover",
