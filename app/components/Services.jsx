@@ -174,18 +174,6 @@ function Services() {
                className="flex flex-col items-center justify-center m-2"
                variants={itemVariants}
             >
-               <motion.div
-                  animate={{ rotateY: 360 }}
-                  transition={{
-                     duration: 1,
-                     repeat: Infinity,
-                     repeatDelay: 3,
-                     ease: "linear",
-                  }}
-                  style={{ display: "inline-block" }} // stays visible during the rotation
-               >
-                  <FaArrowTurnDown size={40} className="m-4" />
-               </motion.div>
                <div className="flex flex-col items-center gap-4 m-4">
                   <SVGLineGlowAnimate
                      movementDelay={0}
@@ -209,6 +197,18 @@ function Services() {
                      color="#A9F030"
                   />
                </div>
+               <motion.div
+                  animate={{ rotateY: 360 }}
+                  transition={{
+                     duration: 1,
+                     repeat: Infinity,
+                     repeatDelay: 3,
+                     ease: "linear",
+                  }}
+                  style={{ display: "inline-block" }} // stays visible during the rotation
+               >
+                  <FaArrowTurnDown size={40} className="m-4" />
+               </motion.div>
             </motion.div>
          </motion.div>
       </motion.div>

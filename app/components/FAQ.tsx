@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Accordion from "./ui/Accordion";
+import CTA from "./ui/CTA";
 
 function FAQ() {
    return (
@@ -33,6 +34,7 @@ function FAQ() {
                N'hesitez pas à me&nbsp; <span className="font-bold text-green-300">contacter&nbsp;</span> pour plus&nbsp; <span className="font-bold text-green-300">d'informations</span>
                
             </div>
+            <div><CTA/></div>
          </div>
       </motion.div>
    );

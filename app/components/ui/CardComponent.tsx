@@ -28,7 +28,7 @@ const CardComponent: React.FC<CardProps> = ({
         alt={title}
       />
       <div className="p-4">
-        <h3 className="text-xl font-medium text-gray-900">{title}</h3>
+        <h3 className="text-xl font-bold text-center border-b-2 border-t-2 border-black pb-2 pt-2 text-gray-900">{title}</h3>
         <p className="mt-1 text-gray-900">{description}</p>
         <a
           href={link}
