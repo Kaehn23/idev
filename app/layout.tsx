@@ -22,10 +22,10 @@ export const metadata: Metadata = {
       url: "https://idev-nine.vercel.app/",
       images: [
          {
-            url: "/assets/logo/favicon.ico",
+            url: "/assets/Vector.png",
             width: 1200,
             height: 630,
-            alt: "Description de l'image",
+            alt: "BeepBoop",
          },
       ],
       type: "website",
