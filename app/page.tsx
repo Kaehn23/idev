@@ -15,10 +15,10 @@ export default function Home() {
       <>
          <Lenis>
             <Head>
-               <title>Sud Décapage - Entreprise de décapage, aérogommage</title>
+               <title>J-iDev - Création de sites web, maintenance & SEO</title>
                <meta
                   name="description"
-                  content="Site web de notre entreprise Concept Truck, specialisée l'entretient, la réparation, et l'aménagement de véhicules poids lourds, véhicules legers, PL VL dans les Landes"
+                  content="Bienvenue sur notre site, nous proposons nos services de création de sites web responsive, optimisés et rapides. Nous effectuons aussi des refontes & de la maintenance sur des sites existants. Nous offrons également un service de SEO."
                />
                <meta
                   name="keywords"

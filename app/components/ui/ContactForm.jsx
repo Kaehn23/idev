@@ -110,7 +110,7 @@ export const ContactForm = () => {
               value={formData.firstName}
               onChange={handleInputChange}
               required
-              className="p-3 border rounded-xl focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
+              className="p-3 border rounded-xl text-black focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
             />
           </div>
           <div className="flex flex-col">
@@ -122,7 +122,7 @@ export const ContactForm = () => {
               value={formData.companyName}
               onChange={handleInputChange}
               required
-              className="p-3 border rounded-xl focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
+              className="p-3 border rounded-xl text-black focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
             />
           </div>
           <div className="flex flex-col">
@@ -134,7 +134,7 @@ export const ContactForm = () => {
               value={formData.phoneNumber}
               onChange={handleInputChange}
               required
-              className="p-3 border rounded-xl focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
+              className="p-3 border rounded-xl text-black focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
             />
           </div>
           <div className="flex flex-col">
@@ -146,7 +146,7 @@ export const ContactForm = () => {
               value={formData.email}
               onChange={handleInputChange}
               required
-              className="p-3 border rounded-xl focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
+              className="p-3 border rounded-xl text-black focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
             />
           </div>
         </div>
@@ -160,18 +160,18 @@ export const ContactForm = () => {
             onChange={handleInputChange}
             required
             rows={5}
-            className="p-3 border rounded-xl focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
+            className="p-3 border rounded-xl text-black focus:outline-none focus:ring focus:ring-green-300 placeholder-gray-400"
           />
         </div>
 
         <div className="flex justify-center">
           <button
             type="submit"
-            className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-md focus:outline-none focus:ring focus:ring-green-300 bg-orange-300 px-6 font-medium text-black hover:text-black"
+            className="group relative inline-flex h-12  items-center justify-center overflow-hidden rounded-md focus:outline-none focus:ring focus:ring-green-300 bg-orange-300 px-6 font-medium text-black hover:text-black"
             disabled={isSending || isCooldown} 
           >
-            <span className="absolute h-56 w-32 rounded-full bg-green-300 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
-            <span className="relative font-semibold">
+            <span className="absolute h-56 w-32 text-black rounded-full bg-green-300 transition-all duration-300 group-hover:h-0 group-hover:w-0"></span>
+            <span className="relative font-semibold text-black">
               {isSending ? "Envoi..." : "Envoyer"}
             </span>
           </button>
@@ -182,8 +182,8 @@ export const ContactForm = () => {
       {isModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
           <div className="bg-white p-6 rounded-lg shadow-lg">
-            <h2 className="text-xl font-bold mb-4">Message envoyé avec succès!</h2>
-            <p className="mb-4">Nous vous contacterons bientôt.</p>
+            <h2 className="text-xl text-black font-bold mb-4">Message envoyé avec succès!</h2>
+            <p className="mb-4 text-black">Nous vous contacterons bientôt.</p>
             <button
               onClick={() => setIsModalOpen(false)}
               className="px-4 py-2 bg-green-300 text-black rounded hover:bg-green-300"
