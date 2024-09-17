@@ -84,7 +84,7 @@ const Main: React.FC = () => {
          <main
             className="relative min-h-screen flex items-center max-w-6xl mx-auto justify-center px-4 pt-16 bg-cover bg-center bg-no-repeat"
             style={{
-               backgroundImage: `url('/assets/bg4.svg')`,
+               backgroundImage: `url('/assets/bg6.png')`,
                backgroundSize: "cover",
                backgroundPosition: "center",
                backgroundRepeat: "no-repeat",

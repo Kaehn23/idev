@@ -58,68 +58,82 @@ function Projects() {
    ];
 
    return (
-      <div id="projects" className="w-full mx-auto h-screen">
-         <h2 className="text-black text-2xl md:text-6xl font-bold text-center">
-            Retrouvez mes derniers projets
-         </h2>
-         <div className="pt-12">
-            <CardCarousel cards={cards} />
-         </div>
-         <motion.div
-            className="text-center font-bold text-2xl pt-8"
-            whileHover={{
-               scale: 1.2,
-               transition: { type: "spring", stiffness: 100 },
-            }}
-         >
-            Contactez moi pour obtenir votre{" "}
-            <span className="lg:border-b-4 md:border-b-2 sm:border-b-2 border-green-300">devis gratuit</span>{" "}
-         </motion.div>
-
-         <motion.div
-            className="flex flex-col items-center justify-center m-2"
-            variants={itemVariants}
-         >
-            <div className="flex flex-col items-center gap-4 m-4">
-               <SVGLineGlowAnimate
-                  movementDelay={0}
-                  id={1}
-                  baseWidth={300}
-                  initialGradientX={0}
-                  color="#E3AA3B"
-               />
-               <SVGLineGlowAnimate
-                  movementDelay={2000}
-                  id={2}
-                  baseWidth={450}
-                  initialGradientX={0}
-                  color="#A9F030"
-               />
-               <SVGLineGlowAnimate
-                  movementDelay={4000}
-                  id={3}
-                  baseWidth={400}
-                  initialGradientX={0}
-                  color="#E3AA3B"
-               />
+      <section
+         id="services"
+         className="relative w-full min-h-screen p-4 flex items-center justify-center"
+         style={{
+            backgroundImage: `url("/assets/boop7.svg")`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+         }}
+         aria-labelledby="services-title"
+      >
+         <div id="projects" className="w-full mx-auto h-screen">
+            <h2 className="text-black text-2xl md:text-6xl font-bold text-center">
+               Retrouvez mes derniers projets
+            </h2>
+            <div className="pt-12">
+               <CardCarousel cards={cards} />
             </div>
+            <motion.div
+               className="text-center font-bold text-2xl pt-8"
+               whileHover={{
+                  scale: 1.2,
+                  transition: { type: "spring", stiffness: 100 },
+               }}
+            >
+               Contactez moi pour obtenir votre{" "}
+               <span className="lg:border-b-4 md:border-b-2 sm:border-b-2 border-green-300">
+                  devis gratuit
+               </span>{" "}
+            </motion.div>
 
             <motion.div
-               animate={{ rotateY: 360 }}
-               transition={{
-                  duration: 1,
-                  repeat: Infinity,
-                  repeatDelay: 3,
-                  ease: "linear",
-               }}
-               className="flex justify-center items-center"
+               className="flex flex-col items-center justify-center m-2"
+               variants={itemVariants}
             >
-               <GoArrowDown size={40} className="m-4" />
-               <GoArrowDown size={40} className="m-4" />
-               <GoArrowDown size={40} className="m-4" />
+               <div className="flex flex-col items-center gap-4 m-4">
+                  <SVGLineGlowAnimate
+                     movementDelay={0}
+                     id={1}
+                     baseWidth={300}
+                     initialGradientX={0}
+                     color="#E3AA3B"
+                  />
+                  <SVGLineGlowAnimate
+                     movementDelay={2000}
+                     id={2}
+                     baseWidth={450}
+                     initialGradientX={0}
+                     color="#A9F030"
+                  />
+                  <SVGLineGlowAnimate
+                     movementDelay={4000}
+                     id={3}
+                     baseWidth={400}
+                     initialGradientX={0}
+                     color="#E3AA3B"
+                  />
+               </div>
+
+               <motion.div
+                  animate={{ rotateY: 360 }}
+                  transition={{
+                     duration: 1,
+                     repeat: Infinity,
+                     repeatDelay: 3,
+                     ease: "linear",
+                  }}
+                  className="flex justify-center items-center"
+               >
+                  <GoArrowDown size={40} className="m-4" />
+                  <GoArrowDown size={40} className="m-4" />
+                  <GoArrowDown size={40} className="m-4" />
+               </motion.div>
             </motion.div>
-         </motion.div>
-      </div>
+         </div>
+      </section>
    );
 }
 
