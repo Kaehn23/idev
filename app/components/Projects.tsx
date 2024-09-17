@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Vortex } from "./ui/Vortex";
+
 import { CardProps } from "./ui/CardComponent";
 import CardCarousel from "./ui/CardCarousel";
 import { GoArrowDown } from "react-icons/go";
@@ -59,16 +59,7 @@ function Projects() {
 
    return (
       <div id="projects" className="w-full mx-auto h-screen">
-         <Vortex
-            backgroundColor="white"
-            rangeY={300}
-            particleCount={75}
-            baseHue={120}
-            baseSpeed={0.2}
-            rangeRadius={10}
-            baseRadius={4}
-            className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full"
-         >
+         
             <h2 className="text-black text-2xl md:text-6xl font-bold text-center">
                Retrouvez mes derniers projets
             </h2>
@@ -130,7 +121,7 @@ function Projects() {
                   </motion.div>
                
             </motion.div>
-         </Vortex>
+         
       </div>
    );
 }
