@@ -16,7 +16,7 @@ const ScrollToTop = () => {
          onClick={handleScrollToTop}
       >
          <LuArrowUp
-            className=" w-12 h-12 md:w-16 md:h-16 rounded-xl shadow-xl  duration-300 text-[#FFFFF]/50 glass-effect"
+            className=" w-12 h-12 md:w-16 md:h-16 rounded-xl shadow-xl  duration-300 text-black glass-effect"
             size={15}
          />
       </div>

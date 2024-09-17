@@ -20,7 +20,7 @@ function FAQ() {
          transition={{ duration: 0.8 }}
       >
          <div className="w-full max-w-6xl mx-auto bg-white bg-opacity-30 dark:bg-black dark:bg-opacity-80 rounded-lg shadow-lg p-4 md:p-8">
-            <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-6">
+            <h1 className="text-center text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 text-black">
                <span className="font-bold">Ici</span>, vous trouverez les&nbsp;
                <span className="font-bold border-b-4 border-green-300">
                   questions qui reviennent fréquemment
@@ -29,7 +29,7 @@ function FAQ() {
 
             <Accordion />
 
-            <section className="w-full max-w-6xl text-2xl md:text-2xl sm:text-2xl text-center mx-auto bg-white bg-opacity-30 dark:bg-black dark:bg-opacity-80 rounded-lg shadow-lg p-4 md:p-8">
+            <section className="w-full max-w-6xl text-black text-2xl md:text-2xl sm:text-2xl text-center mx-auto bg-white bg-opacity-30 dark:bg-black dark:bg-opacity-80 rounded-lg shadow-lg p-4 md:p-8">
                <p className="leading-relaxed">
                   N'hésitez pas à me&nbsp;
                   <span className="font-bold text-green-300">

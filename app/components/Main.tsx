@@ -102,9 +102,9 @@ const Main: React.FC = () => {
                <motion.h1
                   variants={itemVariants}
                   id="hero-title"
-                  className="text-3xl md:text-7xl font-bold dark:text-white text-center m-4"
+                  className="text-3xl md:text-7xl font-bold  text-center m-4"
                >
-                  <Highlight className="text-black md:text-7xl sm:mt-4 mx-auto dark:text-white ">
+                  <Highlight className="text-black md:text-7xl sm:mt-4 mx-auto  ">
                      Votre vitrine en ligne
                   </Highlight>
                </motion.h1>
@@ -112,7 +112,7 @@ const Main: React.FC = () => {
                {/* Sous-titre */}
                <motion.h2
                   variants={itemVariants}
-                  className="text-3xl md:text-7xl font-bold sm:text-2xl dark:text-white text-center pb-4"
+                  className="text-3xl md:text-7xl font-bold sm:text-2xl text-black text-center pb-4"
                >
                   Attirez plus de clients
                </motion.h2>
@@ -120,7 +120,7 @@ const Main: React.FC = () => {
                {/* Animation FlipWords */}
                <motion.div
                   variants={itemVariants}
-                  className="text-3xl md:text-7xl font-bold dark:text-white text-center pb-4 overflow-hidden" 
+                  className="text-3xl md:text-7xl font-bold  text-center pb-4 overflow-hidden" 
                >
                   <FlipWords
                      words={words}
@@ -143,7 +143,7 @@ const Main: React.FC = () => {
                   className="w-full max-w-2xl text-center mb-4"
                >
                   <h3 className="sr-only">Description des services</h3>
-                  <div>
+                  <div className="text-black">
                      Augmentez votre visibilité grâce à notre{" "}
                      <span className="font-semibold text-green-300 border-b-2 border-green-300">
                         {" "}

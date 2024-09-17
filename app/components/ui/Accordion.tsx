@@ -21,7 +21,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
       onToggle={handleToggle}
     >
       <summary
-        className="flex cursor-pointer list-none items-center justify-between p-4 md:p-6 text-base md:text-lg font-medium text-secondary-900 group-open:bg-green-300 transition-colors duration-300 rounded-t-lg"
+        className="flex cursor-pointer text-black list-none items-center justify-between p-4 md:p-6 text-base md:text-lg font-medium text-secondary-900 group-open:bg-green-300 transition-colors duration-300 rounded-t-lg"
       >
         <span>{title}</span>
         <div className="text-secondary-500 transition-transform duration-300">
@@ -43,7 +43,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
           </svg>
         </div>
       </summary>
-      <div className="border-t border-t-gray-100 p-4 md:p-6 text-secondary-500 min-h-[50px] text-sm md:text-base">
+      <div className="border-t text-black border-t-gray-100 p-4 md:p-6 text-secondary-500 min-h-[50px] text-sm md:text-base">
         {content}
       </div>
     </details>

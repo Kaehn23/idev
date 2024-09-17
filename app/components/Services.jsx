@@ -88,7 +88,7 @@ function Services() {
       >
         {/* Titre Principal */}
         <motion.header
-          className="text-center text-xl sm:text-2xl lg:text-3xl font-semibold mb-6"
+          className="text-center text-xl sm:text-2xl lg:text-3xl text-black font-semibold mb-6"
           variants={itemVariants}
         >
           Être{" "}
@@ -98,7 +98,7 @@ function Services() {
 
         {/* Sous-titre */}
         <motion.h2
-          className="text-center text-xl sm:text-2xl lg:text-3xl font-bold mb-8 "
+          className="text-center text-xl sm:text-2xl lg:text-3xl font-bold mb-8 text-black "
           variants={itemVariants}
         >
           Je propose divers services de{" "}
@@ -114,7 +114,7 @@ function Services() {
 
         {/* Section Contact */}
         <motion.div
-          className="text-center text-base sm:text-lg lg:text-xl mt-8"
+          className="text-center text-base text-black sm:text-lg lg:text-xl mt-8"
           variants={itemVariants}
         >
           Pour toutes demandes d'informations supplémentaires, n'hésitez pas à me contacter par{" "}
@@ -142,7 +142,7 @@ function Services() {
 
         {/* Section FAQ */}
         <motion.div
-          className="text-center text-lg sm:text-xl lg:text-2xl mt-6"
+          className="text-center text-lg sm:text-xl lg:text-2xl mt-6 text-black"
           variants={itemVariants}
           whileHover={{
             scale: 1.05,

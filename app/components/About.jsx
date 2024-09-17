@@ -40,7 +40,7 @@ const About = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-secondary-700 dark:text-secondary-300">
+          <h1 className="text-2xl sm:text-3xl md:text-4xl text-black font-bold text-secondary-700 dark:text-secondary-300">
             J-iDev, votre partenaire vers la{" "}
             <span className="text-green-300 border-b-4 border-green-300">
               réussite

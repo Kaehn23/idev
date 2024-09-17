@@ -37,7 +37,7 @@ function Contact() {
             className="relative flex flex-col gap-4 items-center justify-center px-4 pt-24 "
          >
             {" "}
-            <h1 className=" text-4xl font-bold">
+            <h1 className=" text-4xl font-bold text-black">
                Prêt à faire décoller votre{" "}
                <span className="text-green-300 border-b-4 border-green-300">
                   visibilité

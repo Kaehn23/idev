@@ -12,7 +12,7 @@ const Footer = () => {
 
    return (
       <div>
-         <div className="flex flex-col w-full h-fit bg-[#374151] text-[#e5e7eb] px-6 md:px-20 py-10 pt-24">
+         <div className="flex flex-col w-full h-fit bg-[#374151] text-[#e5e7eb] px-6 md:px-20 py-10 mt-8 pt-24">
             <div className="flex flex-col md:flex-row md:justify-between">
                {/* Left section */}
                <div className="flex flex-col gap-4 justify-center md:w-[35%]">

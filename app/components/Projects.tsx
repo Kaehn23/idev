@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-
 import { CardProps } from "./ui/CardComponent";
 import CardCarousel from "./ui/CardCarousel";
 import { GoArrowDown } from "react-icons/go";
@@ -59,25 +58,25 @@ function Projects() {
 
    return (
       <section
-         id="services"
-         className="relative w-full min-h-screen p-4 flex items-center justify-center"
+         id="projects"
+         className="relative w-full min-h-screen p-4 flex items-center justify-center py-8  pt-24"
          style={{
             backgroundImage: `url("/assets/boop7.svg")`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
          }}
-         aria-labelledby="services-title"
+         aria-labelledby="projects-title"
       >
          <div id="projects" className="w-full mx-auto h-screen">
-            <h2 className="text-black text-2xl md:text-6xl font-bold text-center">
+            <h2 className="text-black text-2xl md:text-6xl font-bold text-center ">
                Retrouvez mes derniers projets
             </h2>
             <div className="pt-12">
                <CardCarousel cards={cards} />
             </div>
             <motion.div
-               className="text-center font-bold text-2xl pt-8"
+               className="text-center font-bold text-black text-2xl pt-8"
                whileHover={{
                   scale: 1.2,
                   transition: { type: "spring", stiffness: 100 },
@@ -125,7 +124,7 @@ function Projects() {
                      repeatDelay: 3,
                      ease: "linear",
                   }}
-                  className="flex justify-center items-center"
+                  className="flex text-black justify-center items-center"
                >
                   <GoArrowDown size={40} className="m-4" />
                   <GoArrowDown size={40} className="m-4" />

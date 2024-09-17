@@ -161,7 +161,7 @@ const Navbar = () => {
                ref={navRef}
                className={
                   nav
-                     ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-b from-neutral-300 to-stone-400 p-10 ease-in duration-300"
+                     ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-gradient-to-b glass-effect-form p-10 ease-in duration-300"
                      : "fixed left-[-100%] top-0 p-10 ease-in duration-300"
                }
             >
@@ -187,32 +187,32 @@ const Navbar = () => {
                <div className="flex flex-col">
                   <ul className="uppercase font-semibold">
                      <Link href="/" onClick={handleLinkClick}>
-                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-900">
+                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-300">
                            Accueil
                         </li>
                      </Link>
                      <Link href="/#about" onClick={handleLinkClick}>
-                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-900">
+                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-300">
                            À propos
                         </li>
                      </Link>
                      <Link href="/#services" onClick={handleLinkClick}>
-                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-900">
+                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-300">
                            Services
                         </li>
                      </Link>
                      <Link href="/#faq" onClick={handleLinkClick}>
-                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-900">
+                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-300">
                            FAQ
                         </li>
                      </Link>
                      <Link href="/#projects" onClick={handleLinkClick}>
-                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-900">
+                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-300">
                            Projets
                         </li>
                      </Link>
                      <Link href="/#contact" onClick={handleLinkClick}>
-                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-900">
+                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-300">
                            Contact
                         </li>
                      </Link>
@@ -223,7 +223,7 @@ const Navbar = () => {
                      </p>
                      <div className="flex items-center justify-center my-3 w-full sm:w-[60%]">
                         <div
-                           className="rounded-full shadow-lg shadow-black-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                           className="rounded-full shadow-lg bg-green-300 shadow-black-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
                            onClick={handleMailClick}
                         >
                            <AiOutlineMail size={25} />
