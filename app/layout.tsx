@@ -12,34 +12,33 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
    title: "J-iDev",
    description:
-      "J-iDev propose des solutions de sites web responsives, rapides et optimisés pour le SEO naturel de Google. Boostez votre présence en ligne pour augmenter vos ventes.",
+     "J-iDev propose des solutions de sites web responsives, rapides et optimisés pour le SEO naturel de Google. Boostez votre présence en ligne pour augmenter vos ventes.",
    icons: {
-      icon: "/assets/logo/favicon.ico",
+     icon: "/assets/logo/favicon.ico",
    },
    openGraph: {
-      title: "J-iDev",
-      description: "J-iDev - Création de sites web, maintenance & SEO",
-      url: "https://idev-nine.vercel.app/",
-      images: [
-         {
-            url: "/assets/Vector.png",
-            width: 1200,
-            height: 630,
-            alt: "BeepBoop",
-         },
-      ],
-      type: "website",
-      locale: "fr_FR",
-      siteName: "J-iDev",
+     title: "J-iDev",
+     description: "J-iDev - Création de sites web, maintenance & SEO",
+     url: "https://idev-nine.vercel.app/",
+     images: [
+       {
+         url: "https://idev-nine.vercel.app/assets/Vector.png", 
+         width: 1200,
+         height: 630,
+         alt: "BeepBoop",
+       },
+     ],
+     type: "website",
+     locale: "fr_FR",
+     siteName: "J-iDev",
    },
    twitter: {
-      card: "summary_large_image",
-      title: "J-iDev",
-      description: "J-iDev - Création de sites web, maintenance & SEO",
-      images: "/assets/Vector.png",
-    },
-};
-
+     card: "summary_large_image",
+     title: "J-iDev",
+     description: "J-iDev - Création de sites web, maintenance & SEO",
+     images: ["https://idev-nine.vercel.app/assets/Vector.png"], 
+   },
+ };
 export default function RootLayout({
    children,
 }: Readonly<{
