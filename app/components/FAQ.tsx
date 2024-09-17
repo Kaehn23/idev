@@ -29,7 +29,7 @@ function FAQ() {
 
             <Accordion />
 
-            <section className="flex flex-col items-center justify-center text-center text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-secondary-700 dark:text-secondary-300 py-6 px-4 m-4 max-w-md mx-auto">
+            <section className="w-full max-w-6xl text-2xl md:text-2xl sm:text-2xl text-center mx-auto bg-white bg-opacity-30 dark:bg-black dark:bg-opacity-80 rounded-lg shadow-lg p-4 md:p-8">
                <p className="leading-relaxed">
                   N'hésitez pas à me&nbsp;
                   <span className="font-bold text-green-300">

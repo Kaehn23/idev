@@ -98,7 +98,7 @@ function Services() {
 
         {/* Sous-titre */}
         <motion.h2
-          className="text-center text-xl sm:text-2xl lg:text-3xl font-bold mb-8"
+          className="text-center text-xl sm:text-2xl lg:text-3xl font-bold mb-8 "
           variants={itemVariants}
         >
           Je propose divers services de{" "}

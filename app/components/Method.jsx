@@ -3,8 +3,6 @@ import React from "react";
 import Image from "next/image";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
 import { motion } from "framer-motion";
-import { FiCornerUpRight } from "react-icons/fi";
-import { FiCornerDownRight } from "react-icons/fi";
 
 function Method() {
    return (
