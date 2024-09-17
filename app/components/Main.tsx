@@ -9,7 +9,7 @@ import { Highlight } from "./ui/hero-highlight";
 import { TypewriterEffectSmooth } from "./ui/Typewriter-effect";
 
 const Main: React.FC = () => {
-   const words = ["Fidélisez.", "Vendez.", "Convertissez."];
+   const words = ["Fidélisez", "Vendez", "Convertissez"];
    const words2 = [
       { text: "Offrez" },
       { text: "une" },
@@ -19,17 +19,17 @@ const Main: React.FC = () => {
       { text: "ligne" },
       { text: "à" },
       { text: "vos" },
-      { text: "clients." },
+      { text: "clients" },
    ];
-   const words3 = [
-      { text: "Augmentez" },
-      { text: "votre" },
-      { text: "visibilité" },
-      { text: "grâce" },
-      { text: "à" },
-      { text: "notre" },
-      { text: "expertise", className: "text-green-400 font-bold" },
-   ];
+   // const words3 = [
+   //    { text: "Augmentez" },
+   //    { text: "votre" },
+   //    { text: "visibilité" },
+   //    { text: "grâce" },
+   //    { text: "à" },
+   //    { text: "notre" },
+   //    { text: "expertise", className: "text-green-400 font-bold" },
+   // ];
 
    // Variants for staggered animations
    const containerVariants = {

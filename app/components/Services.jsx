@@ -27,7 +27,7 @@ const itemVariants = {
 };
 
 function Services() {
-  const words = ["simple.", "efficace.", "rentable."];
+  const words = ["simple", "efficace", "rentable"];
 
   const projects = [
     {
@@ -88,12 +88,12 @@ function Services() {
       >
         {/* Titre Principal */}
         <motion.header
-          className="text-center text-2xl sm:text-3xl lg:text-4xl font-semibold mb-6"
+          className="text-center text-xl sm:text-2xl lg:text-3xl font-semibold mb-6"
           variants={itemVariants}
         >
           Être{" "}
           <span className="text-green-400">présent</span> sur internet n'a jamais été aussi{" "}
-          <FlipWords className="text-orange-400 font-semibold" words={words} />
+          <FlipWords className="text-orange-400 font-semibold text-center" words={words} />
         </motion.header>
 
         {/* Sous-titre */}
