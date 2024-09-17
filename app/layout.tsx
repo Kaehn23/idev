@@ -18,7 +18,7 @@ export const metadata: Metadata = {
    },
    openGraph: {
      title: "J-iDev",
-     description: "J-iDev - Création de sites web, maintenance & SEO",
+     description: "J-iDev - Création de sites web, maintenance & SEO - Sites vitrines, Landing Page. Nos sites sont rapide et optimisés pour répondre à vos besoin, et augmenter vos profits",
      url: "https://idev-nine.vercel.app/",
      images: [
        {
