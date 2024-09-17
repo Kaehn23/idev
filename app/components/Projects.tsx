@@ -103,14 +103,14 @@ function Projects() {
                   <SVGLineGlowAnimate
                      movementDelay={2000}
                      id={2}
-                     baseWidth={450}
+                     baseWidth={400}
                      initialGradientX={0}
                      color="#A9F030"
                   />
                   <SVGLineGlowAnimate
                      movementDelay={4000}
                      id={3}
-                     baseWidth={400}
+                     baseWidth={350}
                      initialGradientX={0}
                      color="#E3AA3B"
                   />

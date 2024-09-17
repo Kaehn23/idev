@@ -192,7 +192,7 @@ function Services() {
             className="inline-block"
             aria-label="Indicateur de défilement vers le bas"
           >
-            <FaArrowTurnDown size={40} className="m-4" />
+            <FaArrowTurnDown size={40} className="m-4 text-black" />
           </motion.div>
         </motion.div>
       </motion.div>
