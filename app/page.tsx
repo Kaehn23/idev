@@ -22,7 +22,7 @@ export default function Home() {
                />
                <meta
                   name="keywords"
-                  content="aménagement, poids lourds, véhicule poids lourds, amenager, entretien, van, van-life, camping-car, home-car, lanterneau, panneau solaire,  véhicule aménagé,  réparation, mécanique, vidange, soudure, acier, inox, alu, aluminium, décapage, decapage, aérogommage, aerogommage, mise peinture, hangar, landes, 40, sablage, matériel, agricole, restauration, industrie, grenaillage, rénovation, volets, meubles, portails, murettes, murets, charpentes, boiserie"
+                  content="développement web, création de sites web, refonte de sites web, maintenance de sites web, SEO, optimisation SEO, site web responsive, sites web rapides, agence web, conception web, design web, optimisation de performance, développement front-end, développement back-end, web design, sécurité web, hébergement web, applications web, solutions digitales, e-commerce, UX/UI, référencement naturel, stratégie digitale, marketing digital, audit SEO"
                />
                <meta name="robots" content="index, follow" />
                <meta
@@ -38,12 +38,12 @@ export default function Home() {
             </header>
 
             <main>
-               <Main /> 
+               <Main />
                <About />
                <Services />
                <FAQ />
-               <Projects/>
-              <Contact/>
+               <Projects />
+               <Contact />
                <ScrollToTop />
             </main>
 
