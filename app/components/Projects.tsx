@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { Vortex } from "./ui/vortex";
+import { Vortex } from "./ui/Vortex";
 import { CardProps } from "./ui/CardComponent";
 import CardCarousel from "./ui/CardCarousel";
 import { GoArrowDown } from "react-icons/go";
@@ -72,11 +72,11 @@ function Projects() {
             <h2 className="text-black text-2xl md:text-6xl font-bold text-center">
                Retrouvez mes derniers projets
             </h2>
-            <div className="pt-12 ">
+            <div className="pt-12">
                <CardCarousel cards={cards} />
             </div>
             <motion.div
-               className="text-center text-2xl pt-12"
+               className="text-center font-bold text-2xl"
                whileHover={{
                   scale: 1.2,
                   transition: { type: "spring", stiffness: 100 },
@@ -96,7 +96,7 @@ function Projects() {
                      id={1}
                      baseWidth={300}
                      initialGradientX={0}
-                     color="#D4E33B"
+                     color="#E3AA3B"
                   />
                   <SVGLineGlowAnimate
                      movementDelay={2000}

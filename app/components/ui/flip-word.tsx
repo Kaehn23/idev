@@ -15,7 +15,6 @@ export const FlipWords = ({
    const [currentWord, setCurrentWord] = useState(words[0]);
    const [isAnimating, setIsAnimating] = useState<boolean>(false);
 
-  
    const startAnimation = useCallback(() => {
       const word = words[words.indexOf(currentWord) + 1] || words[0];
       setCurrentWord(word);
@@ -23,10 +22,12 @@ export const FlipWords = ({
    }, [currentWord, words]);
 
    useEffect(() => {
-      if (!isAnimating)
-         setTimeout(() => {
+      if (!isAnimating) {
+         const timer = setTimeout(() => {
             startAnimation();
          }, duration);
+         return () => clearTimeout(timer);
+      }
    }, [isAnimating, duration, startAnimation]);
 
    return (
@@ -51,10 +52,10 @@ export const FlipWords = ({
             }}
             exit={{
                opacity: 0,
-               y: -40,
-               x: 40,
-               filter: "blur(8px)",
-               scale: 2,
+               y: -20, // Réduit le déplacement vertical pour éviter le débordement
+               x: 20,  // Réduit le déplacement horizontal pour éviter le débordement
+               filter: "blur(4px)", // Réduit le flou
+               scale: 1.5,          // Réduit le scale
                position: "absolute",
             }}
             className={cn(
@@ -95,3 +96,5 @@ export const FlipWords = ({
       </AnimatePresence>
    );
 };
+
+export default FlipWords;

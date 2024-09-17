@@ -10,7 +10,7 @@ type SVGLineGlowAnimateProps = {
   id: number;
   baseWidth: number;
   initialGradientX?: number;
-  color?: string; // Color prop added earlier
+  color?: string; 
 };
 
 const SVGLineGlowAnimate: React.FC<SVGLineGlowAnimateProps> = ({
@@ -33,7 +33,7 @@ const SVGLineGlowAnimate: React.FC<SVGLineGlowAnimateProps> = ({
 
     const moveGradient = () => {
       setGradientPosition((prev) => {
-        const newX1 = prev.x1 + 2; // Adjust speed here
+        const newX1 = prev.x1 + 2; 
         const newX2 = prev.x2 + 2;
 
         const distanceTravelled = newX1 - START_GRADIENT_POSITION;
@@ -93,7 +93,7 @@ const SVGLineGlowAnimate: React.FC<SVGLineGlowAnimateProps> = ({
         stroke={`url(#gradient-glow-${id})`}
         strokeWidth="6"
         style={{
-          filter: `blur(1px) drop-shadow(0px 0px 2px ${color})`, // Changed blur to 1px
+          filter: `blur(1px) drop-shadow(0px 0px 2px ${color})`, 
           transition: `opacity ${GRADIENT_MOVE_INTERVAL}ms linear`,
         }}
       />
@@ -103,7 +103,7 @@ const SVGLineGlowAnimate: React.FC<SVGLineGlowAnimateProps> = ({
         stroke={`url(#gradient-solid-${id})`}
         strokeWidth="2"
         style={{
-          filter: `blur(1px)`, // Added 1px blur to the solid line
+          filter: `blur(1px)`, 
         }}
       />
 

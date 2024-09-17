@@ -38,11 +38,11 @@ export default function Home() {
             </header>
 
             <main>
-               <Main />
+               <Main /> 
                <About />
                <Services />
                <FAQ />
-               <Projects/>
+               {/* <Projects/> */}
               <Contact/>
                <ScrollToTop />
             </main>
