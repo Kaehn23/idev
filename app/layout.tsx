@@ -17,8 +17,8 @@ export const metadata: Metadata = {
       icon: "/assets/logo/favicon.ico",
    },
    openGraph: {
-      title: "Mon Site Web",
-      description: "Ceci est la description de mon site web.",
+      title: "J-iDev",
+      description: "J-iDev - Création de sites web, maintenance & SEO",
       url: "https://idev-nine.vercel.app/",
       images: [
          {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
       ],
       type: "website",
       locale: "fr_FR",
-      siteName: "Mon Site Web",
+      siteName: "J-iDev",
    },
 };
 
