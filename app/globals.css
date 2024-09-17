@@ -28,7 +28,7 @@ html.lenis, html.lenis body {
   font-family: var(--font-montserrat), sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: white) {
   :root {
     --background: #ededed;
     --foreground: #ededed;
@@ -119,7 +119,7 @@ body {
   padding: 10px; /* Espacement interne */
 }
 .glass-effect-form {
-  background: rgba(179, 178, 178, 0.151); /* Arrière-plan semi-transparent */
+  background: rgba(100, 99, 99, 0.151); /* Arrière-plan semi-transparent */
   border-radius: 10px; /* Coins arrondis */
   backdrop-filter: blur(2px); /* Effet de flou */
   -webkit-backdrop-filter: blur(10px); /* Support pour Safari */

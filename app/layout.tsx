@@ -32,6 +32,12 @@ export const metadata: Metadata = {
       locale: "fr_FR",
       siteName: "J-iDev",
    },
+   twitter: {
+      card: "summary_large_image",
+      title: "J-iDev",
+      description: "J-iDev - Création de sites web, maintenance & SEO",
+      images: "/assets/Vector.png",
+    },
 };
 
 export default function RootLayout({
