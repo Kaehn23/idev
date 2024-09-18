@@ -95,7 +95,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md glass-effect-form">
+    <div className="max-w-4xl mx-auto p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md glass-effect-form mb-4">
       <h2 className="text-2xl font-bold m-6 text-center border-b-2 border-t-2 border-orange-300 text-gray-900 dark:text-white">
         Contactez-nous
       </h2>

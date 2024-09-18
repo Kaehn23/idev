@@ -68,6 +68,7 @@ const Main: React.FC = () => {
             <meta property="og:image" content="/assets/og-image.jpg" />
             <meta property="og:url" content="https://votresite.com" />
             <meta property="og:type" content="website" />
+            <meta property="og:type" content="website" />
             {/* Twitter Card Meta Tags */}
             <meta name="twitter:card" content="summary_large_image" />
             <meta

@@ -21,7 +21,7 @@ function Projects() {
          tags: [
             {
                name: "Application Mobile",
-               colorClasses: "bg-blue-200 text-blue-800",
+               colorClasses: "bg-blue-200 text-black",
             },
          ],
       },
@@ -31,7 +31,7 @@ function Projects() {
          description: "Site pour une entreprise de décapage & sablage.",
          link: "https://www.sud-decapage.com/",
          tags: [
-            { name: "Site Web", colorClasses: "bg-orange-200 text-green-800" },
+            { name: "Site Web", colorClasses: "bg-orange-200 text-black" },
          ],
       },
       {
@@ -40,7 +40,7 @@ function Projects() {
          description: "Site pour une entreprise d'aménagement de véhicules.",
          link: "https://vince2-blush.vercel.app/",
          tags: [
-            { name: "Site Web", colorClasses: "bg-orange-200 text-green-800" },
+            { name: "Site Web", colorClasses: "bg-orange-200 text-black" },
          ],
       },
       {

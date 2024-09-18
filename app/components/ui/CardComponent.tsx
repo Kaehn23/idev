@@ -28,10 +28,10 @@ const CardComponent: React.FC<CardProps> = ({
         alt={title}
       />
       <div className="p-4">
-        <h3 className="text-xl font-bold text-center border-b-2 border-t-2 border-black pb-2 pt-2 text-gray-900">
+        <h3 className="text-xl font-bold text-center border-b-2 border-t-2 border-black pb-2 pt-2 text-black">
           {title}
         </h3>
-        <p className="mt-1 text-gray-900">{description}</p>
+        <p className="mt-1 text-black">{description}</p>
         
         
         <div className="flex justify-center mt-2">
@@ -39,7 +39,7 @@ const CardComponent: React.FC<CardProps> = ({
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-4 py-2 bg-green-300 rounded-full font-semibold shadow-md border-black transition-transform transform hover:scale-105"
+            className="inline-block px-4 py-2 bg-green-300 text-black rounded-full font-semibold shadow-md border-black transition-transform transform hover:scale-105"
           >
             Découvrir
           </a>

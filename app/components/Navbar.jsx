@@ -180,9 +180,7 @@ const Navbar = () => {
                   </div>
                </div>
                <div className="my-4">
-                  <p className="w-[85%] md:w-[90%] py-4 font-bold">
-                     Contactez nous pour établir un devis !
-                  </p>
+                  
                </div>
                <div className="flex flex-col">
                   <ul className="uppercase font-semibold">
