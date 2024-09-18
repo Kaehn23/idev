@@ -49,7 +49,7 @@ function Projects() {
          description: "Mon portfolio de developpeur full-stack.",
          link: "https://portfolio-nextjs-kn23s-projects.vercel.app/",
          tags: [
-            { name: "Site Web", colorClasses: "bg-orange-200 text-green-800" },
+            { name: "Site Web", colorClasses: "bg-orange-200 text-black " },
          ],
       },
 

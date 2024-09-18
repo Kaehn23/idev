@@ -58,7 +58,7 @@ const Navbar = () => {
       >
          <div className="flex justify-between md:justify-center items-center w-[full] h-full px-2 2xl:px-16 glass-effect-bar scroll-smooth">
             <div className="block md:hidden">
-               <Link href="/#home">
+               <Link href="/">
                   <Image
                      src="/assets/navLogo2.png"
                      alt="logo idev"
@@ -69,7 +69,7 @@ const Navbar = () => {
             </div>
             <div className="hidden md:flex">
                <ul style={{ color: "#FFFFFF" }} className="flex space-x-4">
-                  <Link href="#home">
+                  <Link href="/">
                      <motion.li
                         className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
                         whileHover={{
@@ -168,7 +168,7 @@ const Navbar = () => {
                <div className="flex justify-between items-center w-full">
                   <Image
                      src="/assets/navLogo2.png"
-                     alt="Sud decapage logo"
+                     alt="J-iDev logo"
                      width="120"
                      height="60"
                   />

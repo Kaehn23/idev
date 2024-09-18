@@ -54,8 +54,8 @@ export const FlipWords = ({
                opacity: 0,
                y: -20, // Réduit le déplacement vertical pour éviter le débordement
                x: 20,  // Réduit le déplacement horizontal pour éviter le débordement
-               filter: "blur(4px)", // Réduit le flou
-               scale: 1.5,          // Réduit le scale
+               filter: "blur(4px)", 
+               scale: 1.5,          
                position: "absolute",
             }}
             className={cn(

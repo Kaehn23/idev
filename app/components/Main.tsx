@@ -21,15 +21,7 @@ const Main: React.FC = () => {
       { text: "vos" },
       { text: "clients" },
    ];
-   // const words3 = [
-   //    { text: "Augmentez" },
-   //    { text: "votre" },
-   //    { text: "visibilité" },
-   //    { text: "grâce" },
-   //    { text: "à" },
-   //    { text: "notre" },
-   //    { text: "expertise", className: "text-green-400 font-bold" },
-   // ];
+   
 
    // Variants for staggered animations
    const containerVariants = {
@@ -125,6 +117,7 @@ const Main: React.FC = () => {
                >
                   <FlipWords
                      words={words}
+                     duration={1000}
                      className="text-orange-500 border-b-8 border-orange-300 "
                   />
                </motion.div>
@@ -146,7 +139,7 @@ const Main: React.FC = () => {
                   <h3 className="sr-only">Description des services</h3>
                   <div className="text-black">
                      Augmentez votre visibilité grâce à notre{" "}
-                     <span className="font-semibold text-green-300 border-b-2 border-green-300">
+                     <span className="font-semibold text-green-400 border-b-2 border-green-300">
                         {" "}
                         expertise
                      </span>

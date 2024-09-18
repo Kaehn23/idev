@@ -32,11 +32,11 @@ function FAQ() {
             <section className="w-full max-w-6xl text-black text-2xl md:text-2xl sm:text-2xl text-center mx-auto bg-white bg-opacity-30 dark:bg-black dark:bg-opacity-80 rounded-lg shadow-lg p-4 md:p-8">
                <p className="leading-relaxed">
                   N'hésitez pas à me&nbsp;
-                  <span className="font-bold text-green-300">
+                  <span className="font-bold text-green-400">
                      contacter&nbsp;
                   </span>
                   pour plus&nbsp;
-                  <span className="font-bold text-green-300">
+                  <span className="font-bold text-green-400">
                      d'informations
                   </span>
                </p>
