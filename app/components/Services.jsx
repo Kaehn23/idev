@@ -38,7 +38,7 @@ function Services() {
             "Référencement naturel",
             "Rapide et optimisé",
             "Hébergement offert pendant un an",
-            "6 mois de maintenance offerte",
+            "3 mois de maintenance offerte",
             "Support 7j/7",
          ],
       },
