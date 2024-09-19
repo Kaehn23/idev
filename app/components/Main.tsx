@@ -154,7 +154,7 @@ const Main: React.FC = () => {
                >
                   <Link href="/#contact" passHref>
                      <motion.button
-                        className="bg-green-300 text-black dark:bg-white rounded-full w-fit hover:scale-110 dark:text-black px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
+                        className="bg-green-300 text-black dark:bg-white rounded-full shadow-lg  w-fit hover:scale-110 dark:text-black px-4 py-2 focus:outline-none focus:ring-2 focus:ring-green-500"
                         whileHover={{
                            scale: 1.3,
                            transition: { type: "spring", stiffness: 100 },
@@ -168,7 +168,7 @@ const Main: React.FC = () => {
 
                   <Link href="/#about" passHref>
                      <motion.button
-                        className="bg-black dark:bg-white rounded-full w-fit hover:scale-110 text-white dark:text-black px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white"
+                        className="bg-black dark:bg-white rounded-full w-fit hover:scale-110 shadow-lg text-white dark:text-black px-4 py-2 focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white"
                         whileHover={{
                            scale: 1.3,
                            transition: { type: "spring", stiffness: 100 },
