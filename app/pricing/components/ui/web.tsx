@@ -8,7 +8,16 @@ function Web() {
                <h2 className="text-2xl font-semibold mb-2 text-black text-center">
                   Starter Pack
                </h2>
-               <p className="text-xl mb-4 text-black font-semibold">999 €</p>
+               <p className="text-xl mb-4 text-black font-semibold line-through">
+                  999 €
+               </p>
+               <p className="text-xl mb-4 text-black font-semibold line-">
+                  849 €{" "}
+                  <span className="text-green-300 border-b-4 border-green-300">
+                     Offre de lancement de l'entreprise!
+                  </span>
+               </p>
+               <p></p>
                <p className="text-black pb-4">
                   Adapté aux petites entreprises ainsi qu'aux start-up
                </p>
@@ -19,7 +28,6 @@ function Web() {
                   <li>Site vitrine</li>
                   <li>Page d'accueil</li>
                   <li>Formulaire de contact</li>
-                  
                   <li>3 mois de maintenance offerte</li>
                   <li>Support 7j/7</li>
                </ul>
@@ -48,7 +56,6 @@ function Web() {
                   <li>Boite mail professionelle</li>
                   <li>6 Mois de maintenance offerte</li>
                   <li>Support 7j/7</li>
-                  
                </ul>
                <a
                   href="https://cal.com/j-idev/30min?user=j-idev"

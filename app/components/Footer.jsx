@@ -93,10 +93,10 @@ const Footer = () => {
                         <div className="font-bold uppercase text-green-300 pb-2">
                            Legal
                         </div>
-                        <Link href="#xxx" className="hover:underline">
+                        {/* <Link href="#xxx" className="hover:underline">
                            Privacy Policy
-                        </Link>
-                        <Link href="#xxx" className="hover:underline">
+                        </Link> */}
+                        <Link href="/mentionlegales" className="hover:underline">
                            Mentions Légales
                         </Link>
                      </div>

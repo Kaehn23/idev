@@ -2,22 +2,21 @@ import { Metadata } from 'next';
 import Pricing from './components/Pricing';
 import Head from 'next/head';
 import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 import Lenis from '../components/ui/lenis';
 
 
 export const metadata: Metadata = {
-  title: 'Nos Tarifs - VotreSite',
+  title: 'Nos Tarifs - J-iDev',
   description: 'Découvrez nos plans tarifaires adaptés à vos besoins.',
   keywords: ['tarifs', 'pricing', 'plans', 'abonnement'],
   openGraph: {
     title: 'Nos Tarifs - J-iDev',
     description: 'Découvrez nos plans tarifaires adaptés à vos besoins.',
-    url: 'https://www.votresite.com/pricing',
-    siteName: 'VotreSite',
+    url: 'https://www.J-iDev.com/pricing',
+    siteName: 'J-iDev',
     images: [
       {
-        url: 'https://www.votresite.com/images/og-image.jpg',
+        url: 'https://www.J-iDev.com/images/og-image.jpg',
         width: 800,
         height: 600,
       },
@@ -59,9 +58,7 @@ export default function Home() {
               <Pricing/>
            </main>
 
-           <footer>
-              <Footer />
-           </footer>
+          
         </Lenis>
      </>
   );
