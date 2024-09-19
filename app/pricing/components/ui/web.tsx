@@ -19,6 +19,7 @@ function Web() {
                   <li>Site vitrine</li>
                   <li>Page d'accueil</li>
                   <li>Formulaire de contact</li>
+                  
                   <li>3 mois de maintenance offerte</li>
                   <li>Support 7j/7</li>
                </ul>
