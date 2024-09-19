@@ -3,10 +3,18 @@ import Web from "./ui/web";
 import Seo from "./ui/seo";
 import Maintenance from "./ui/maintenance";
 import CTA from "@/app/components/ui/CTA";
+import BackPage from "@/app/components/ui/BackPage";
+import { GoReply } from "react-icons/go";
 
 const Pricing: React.FC = () => {
    return (
       <div className="container mx-auto pt-24">
+         {/* <div className="flex items-left justify-start my-3 w-full sm:w-[60%]">
+            <div className="rounded-full shadow-lg bg-green-300 shadow-black-800 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
+               <GoReply className="text-black" />
+            </div>
+         </div> */}
+
          <h1 className="text-3xl font-bold text-center mb-4 md:text-2xl sm:text-4xl text-black">
             Découvrez nos différentes{" "}
             <span className="font-bold border-b-2 border-green-300 text-green-300">
@@ -48,6 +56,9 @@ const Pricing: React.FC = () => {
          </section>
          <div className="flex justify-center">
             <CTA />
+         </div>
+         <div className="flex justify-center">
+            <BackPage />
          </div>
       </div>
    );

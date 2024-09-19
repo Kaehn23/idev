@@ -9,7 +9,7 @@ function Seo() {
             </h2>
             <p className="text-xl mb-4 text-black font-semibold">--- €</p>
             <p className="text-black pb-4">
-               Prix suivant devis 
+            Definissons vos besoins ensemble
             </p>
             <div className="w-full  border-t border-gray-500 my-4"></div>
             <ul className="mb-4 text-black list-disc list-inside py-4">

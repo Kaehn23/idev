@@ -64,7 +64,7 @@ const Footer = () => {
                         <div className="font-bold uppercase text-green-300 pb-2">
                            Explorez
                         </div>
-                        <Link href="#services" className="hover:underline">
+                        <Link href="services" className="hover:underline">
                            Services
                         </Link>
                         <Link href="/pricing" className="hover:underline">
@@ -83,7 +83,7 @@ const Footer = () => {
                         <Link href="#contact" className="hover:underline">
                            Contact
                         </Link>
-                        <Link href="#contact" className="hover:underline">
+                        <Link href="contact" className="hover:underline">
                            Support
                         </Link>
                      </div>
