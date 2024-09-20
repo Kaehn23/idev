@@ -15,8 +15,9 @@ function MentionsLegales() {
         <ul className="list-disc list-inside space-y-2">
           <li><strong>Propriétaire :</strong> Mr IPARRAGUIRRE Jérémy</li>
           <li><strong>Siège social :</strong> 64000 Pau</li>
-          <li><strong>SIRET :</strong>INSERT SIRET HERE </li>
-          <li><strong>Code APE :</strong> INSERT APE HERE  62.01Z - Programmation informatique</li>
+          <li><strong>Statut :</strong>Micro-entreprise </li>
+          <li><strong>SIRET :</strong>93177183600018 </li>
+          <li><strong>Code APE :</strong>62.01Z - Programmation informatique</li>
           <li><strong>Adresse mail :</strong> <a href="mailto:jidev-contact@proton.me" className="text-blue-600 underline">jidev-contact@proton.me</a></li>
           <li><strong>Créateur du site :</strong> J-iDev.com</li>
           <li>

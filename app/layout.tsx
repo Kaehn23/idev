@@ -23,10 +23,10 @@ export const metadata: Metadata = {
       url: "https://idev-nine.vercel.app/",
       images: [
          {
-            url: "https://idev-nine.vercel.app/assets/Vector.png",
+            url: "https://idev-nine.vercel.app/assets/Vector.webp",
             width: 1200,
             height: 630,
-            alt: "BeepBoop",
+            alt: "Image opengraph",
          },
       ],
       type: "website",

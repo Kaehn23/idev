@@ -14,7 +14,7 @@ function Web() {
                <p className="text-xl mb-4 text-black font-semibold line-">
                   849 €{" "}
                   <span className="text-green-300 border-b-4 border-green-300">
-                     Offre de lancement de l'entreprise!
+                     Offre de lancement de l'entreprise !
                   </span>
                </p>
                <p></p>
@@ -45,7 +45,13 @@ function Web() {
                <h2 className="text-2xl font-semibold mb-2 text-black text-center">
                   Premium Pack
                </h2>
-               <p className="text-xl mb-4 text-black font-semibold">1499 €</p>
+               <p className="text-xl mb-4 text-black font-semibold line-through">1499 €</p>
+               <p className="text-xl mb-4 text-black font-semibold line-">
+                  1349 €{" "}
+                  <span className="text-green-300 border-b-4 border-green-300">
+                     Offre de lancement de l'entreprise !
+                  </span>
+               </p>
                <p className="text-black pb-4">
                   Idéal pour les entreprises en croissance
                </p>
@@ -54,6 +60,7 @@ function Web() {
                   <li>Starter Pack (inclus)</li>
                   <li>Prise de rendez-vous en ligne</li>
                   <li>Boite mail professionelle</li>
+                  <li>Smooth-Scrolling</li>
                   <li>6 Mois de maintenance offerte</li>
                   <li>Support 7j/7</li>
                </ul>
