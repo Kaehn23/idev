@@ -7,12 +7,12 @@ import { MdOutlineMail } from "react-icons/md";
 
 const Footer = () => {
    const handleMailClick = () => {
-      window.location.href = "mailto:jeremy.iparraguirre@gmail.com";
+      window.location.href = "mailto:jidev-contact@proton.me";
    };
 
    return (
       <div>
-         <div className="flex flex-col w-full h-fit md:min-h-scren sm:min-h-scren bg-[#374151] text-[#e5e7eb] px-6 md:px-20 py-10 mt-8 pt-24">
+         <div className="flex flex-col w-full h-fit bg-[#374151] text-[#e5e7eb] px-6 md:px-20 py-10 mt-8 pt-24">
             <div className="flex flex-col md:flex-row md:justify-between">
                {/* Left section */}
                <div className="flex flex-col gap-4 justify-center md:w-[35%]">
@@ -28,28 +28,31 @@ const Footer = () => {
                         <div>Lundi au Vendredi : 09h-18h</div>
                      </div>
                   </div>
-                  <div className="flex items-center gap-4">
-                     <a href="#" className="hover:text-gray-300">
-                        <svg
-                           xmlns="http://www.w3.org/2000/svg"
-                           width="24"
-                           height="24"
-                           viewBox="0 0 24 24"
-                           className="fill-current"
-                        >
-                           <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-                        </svg>
-                     </a>
-                     <div className="flex items-center">
-                        <FiPhone size={20} />{" "}
-                        <span className="font-bold p-2"> 0674845013</span>
+                  <div className="flex items-start gap-4">
+                     {/* <a href="#" className="hover:text-gray-300">
+                
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  className="fill-current"
+                >
+                  <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+                </svg>
+              </a> */}
+                     <div className="flex flex-col">
+                        <div className="flex items-center">
+                           <FiPhone size={20} />
+                           <span className="font-bold p-2">06 74 84 50 13</span>
+                        </div>
                         <div
                            onClick={handleMailClick}
-                           className="flex items-center"
+                           className="flex items-center cursor-pointer"
                         >
                            <MdOutlineMail size={20} />
-                           <span className="font-semibold p-2 cursor-pointer">
-                           jidev-contact@proton.me
+                           <span className="font-semibold p-2">
+                              jidev-contact@proton.me
                            </span>
                         </div>
                      </div>
@@ -93,10 +96,10 @@ const Footer = () => {
                         <div className="font-bold uppercase text-green-300 pb-2">
                            Legal
                         </div>
-                        {/* <Link href="#xxx" className="hover:underline">
-                           Privacy Policy
-                        </Link> */}
-                        <Link href="/mentionlegales" className="hover:underline">
+                        <Link
+                           href="/mentionlegales"
+                           className="hover:underline"
+                        >
                            Mentions Légales
                         </Link>
                      </div>
