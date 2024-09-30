@@ -4,7 +4,7 @@ import Seo from "./ui/seo";
 import Maintenance from "./ui/maintenance";
 import CTA from "@/app/components/ui/CTA";
 import BackPage from "@/app/components/ui/BackPage";
-import { GoReply } from "react-icons/go";
+
 
 const Pricing: React.FC = () => {
    return (

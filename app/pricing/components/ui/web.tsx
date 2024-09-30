@@ -14,7 +14,7 @@ function Web() {
                <p className="text-xl mb-4 text-black font-semibold line-">
                   849 €{" "}
                   <span className="text-green-300 border-b-4 border-green-300">
-                     Offre de lancement de l'entreprise !
+                     Offre de dernier trimestre !
                   </span>
                </p>
                <p></p>
@@ -26,7 +26,7 @@ function Web() {
                   <li>Nom de domaine</li>
                   <li>Hébergement web</li>
                   <li>Site vitrine</li>
-                  <li>Page d'accueil</li>
+                  <li>Landing Page</li>
                   <li>Formulaire de contact</li>
                   <li>3 mois de maintenance offerte</li>
                   <li>Support 7j/7</li>
@@ -45,11 +45,13 @@ function Web() {
                <h2 className="text-2xl font-semibold mb-2 text-black text-center">
                   Premium Pack
                </h2>
-               <p className="text-xl mb-4 text-black font-semibold line-through">1499 €</p>
+               <p className="text-xl mb-4 text-black font-semibold line-through">
+                  1499 €
+               </p>
                <p className="text-xl mb-4 text-black font-semibold line-">
                   1349 €{" "}
                   <span className="text-green-300 border-b-4 border-green-300">
-                     Offre de lancement de l'entreprise !
+                     Offre de dernier trimestre !
                   </span>
                </p>
                <p className="text-black pb-4">
