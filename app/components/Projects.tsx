@@ -26,22 +26,25 @@ function Projects() {
          ],
       },
       {
+         imageSrc: "/assets/projects/OrnellaCard.png",
+         title: "Ornella Magris",
+         description: "Site pour une psychanalyste de la côte basque.",
+         link: "https://ornella-gray.vercel.app/",
+         tags: [{ name: "Site Web", colorClasses: "bg-orange-200 text-black" }],
+      },
+      {
          imageSrc: "/assets/projects/sudDecapageCard.png",
          title: "Sud-Décapage",
          description: "Site pour une entreprise de décapage & sablage.",
          link: "https://www.sud-decapage.com/",
-         tags: [
-            { name: "Site Web", colorClasses: "bg-orange-200 text-black" },
-         ],
+         tags: [{ name: "Site Web", colorClasses: "bg-orange-200 text-black" }],
       },
       {
          imageSrc: "/assets/projects/conceptTruckCard.png",
          title: "Concept-Truck",
          description: "Site pour une entreprise d'aménagement de véhicules.",
          link: "https://vince2-blush.vercel.app/",
-         tags: [
-            { name: "Site Web", colorClasses: "bg-orange-200 text-black" },
-         ],
+         tags: [{ name: "Site Web", colorClasses: "bg-orange-200 text-black" }],
       },
       {
          imageSrc: "/assets/projects/portfolioCard2.png",
