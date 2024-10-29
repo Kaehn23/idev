@@ -35,7 +35,7 @@ function Maintenance() {
             <ul className="mb-4 text-black list-disc list-inside py-4">
                <li>5 retouches / modifications</li>
 
-               <li>Ajout & modificication de contenu</li>
+               <li>Ajout & modification de contenu</li>
             </ul>
             <a
                href="https://cal.com/j-idev/30min?user=j-idev"
