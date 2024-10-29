@@ -9,10 +9,10 @@ function Web() {
                   Starter Pack
                </h2>
                <p className="text-xl mb-4 text-black font-semibold line-through">
-                  999 €
+                  999€ HT
                </p>
                <p className="text-xl mb-4 text-black font-semibold line-">
-                  849 €{" "}
+                  849€ HT{" "}
                   <span className="text-green-300 border-b-4 border-green-300">
                      Offre de dernier trimestre !
                   </span>
@@ -46,10 +46,10 @@ function Web() {
                   Premium Pack
                </h2>
                <p className="text-xl mb-4 text-black font-semibold line-through">
-                  1499 €
+                  1499€ HT
                </p>
                <p className="text-xl mb-4 text-black font-semibold line-">
-                  1349 €{" "}
+                  1349€ HT{" "}
                   <span className="text-green-300 border-b-4 border-green-300">
                      Offre de dernier trimestre !
                   </span>
@@ -61,6 +61,8 @@ function Web() {
                <ul className="mb-4 text-black list-disc list-inside py-4">
                   <li>Starter Pack (inclus)</li>
                   <li>Prise de rendez-vous en ligne</li>
+                  <li>Avis Google intégrés</li>
+                  <li>Intégration de votre emplacement Google Maps</li>
                   <li>Boite mail professionelle</li>
                   <li>Smooth-Scrolling</li>
                   <li>6 Mois de maintenance offerte</li>
