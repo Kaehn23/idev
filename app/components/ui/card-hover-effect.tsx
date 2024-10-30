@@ -95,7 +95,7 @@ export const CardTitle: React.FC<CardTitleProps> = ({ className, children }) => 
   return (
     <h4
       className={cn(
-        "text-black dark:text-white text-center text-xl sm:text-2xl lg:text-3xl font-bold tracking-wide mt-2",
+        "text-black underline dark:text-white text-center text-xl sm:text-2xl lg:text-3xl font-bold tracking-wide mt-2",
         className
       )}
     >

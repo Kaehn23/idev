@@ -5,7 +5,6 @@ import Maintenance from "./ui/maintenance";
 import CTA from "@/app/components/ui/CTA";
 import BackPage from "@/app/components/ui/BackPage";
 
-
 const Pricing: React.FC = () => {
    return (
       <div className="container mx-auto pt-24">

@@ -37,7 +37,7 @@ const AccordionItem: React.FC<AccordionItemProps> = ({ title, content }) => {
                </svg>
             </div>
          </summary>
-         <div className="border-t text-black border-t-gray-100 p-4 md:p-6 text-secondary-500 min-h-[50px] text-sm md:text-base">
+         <div className="border-t text-black border-t-gray-100 p-4 md:p-6 text-secondary-500 min-h-[50px] text-sm md:text-base group-open:bg-gray-200 transition-colors duration-300">
             {content}
          </div>
       </details>

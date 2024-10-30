@@ -37,7 +37,7 @@ function Web() {
                   rel="noopener noreferrer"
                   className="bg-green-300 text-black  rounded hover:bg-green-600 relative w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 font-semibold text-sm sm:text-lg shadow-lg "
                >
-                  Rendez-vous
+                  Prendre rendez-vous
                </a>
             </div>
 
@@ -74,7 +74,7 @@ function Web() {
                   rel="noopener noreferrer"
                   className="bg-green-300 text-black  rounded hover:bg-green-600 relative w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 font-semibold text-sm sm:text-lg shadow-lg "
                >
-                  Rendez-vous
+                  Prendre rendez-vous
                </a>
             </div>
 
@@ -101,7 +101,7 @@ function Web() {
                   rel="noopener noreferrer"
                   className="bg-green-300 text-black  rounded hover:bg-green-600 relative w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 font-semibold text-sm sm:text-lg shadow-lg "
                >
-                  Rendez-vous
+                  Prendre rendez-vous
                </a>
             </div>
          </div>
