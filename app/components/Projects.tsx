@@ -43,7 +43,7 @@ function Projects() {
          imageSrc: "/assets/projects/conceptTruckCard.png",
          title: "Concept-Truck",
          description: "Site pour une entreprise d'aménagement de véhicules.",
-         link: "https://vince2-blush.vercel.app/",
+         link: "https://www.concept-truck.com/",
          tags: [{ name: "Site Web", colorClasses: "bg-orange-200 text-black" }],
       },
       {
