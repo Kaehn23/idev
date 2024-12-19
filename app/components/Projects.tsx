@@ -29,7 +29,7 @@ function Projects() {
          imageSrc: "/assets/projects/OrnellaCard.png",
          title: "Ornella Magris",
          description: "Site pour une psychanalyste de la côte basque.",
-         link: "https://ornella-gray.vercel.app/",
+         link: "https://www.magrispsy.com/",
          tags: [{ name: "Site Web", colorClasses: "bg-orange-200 text-black" }],
       },
       {
