@@ -59,11 +59,7 @@ const Accordion: React.FC = () => {
             <AccordionItem
                title="Comment faire pour modifier le contenu de mon site ?"
                content="Chaque site est livré avec une maintenance offerte de 3 mois. Ensuite, à nous de trouver le forfait le plus adapté à vos besoins."
-            />
-            <AccordionItem
-               title="C'est chouette un beau site, mais à long terme ?"
-               content="J'assure une maintenance offerte pendant 3 mois. Passé ce délai, nous trouverons une offre de forfait adaptée à vos besoins."
-            />
+            />            
             <AccordionItem
                title="Quels sont les avantages d'un site responsive ?"
                content="Un site responsive s'adapte à toutes les tailles d'écran, PC, mobile, tablettes. Il offre une expérience utilisateur optimale et permet d'atteindre un public plus large ; d'améliorer le référencement, et de renforcer votre image de marque."
@@ -71,14 +67,10 @@ const Accordion: React.FC = () => {
             <AccordionItem
                title="Le site est-il optimisé pour les moteurs de recherche ?"
                content="En effet, mes sites sont parfaitement optimisés pour augmenter le SEO naturel de Google."
-            />
-            <AccordionItem
-               title="Pourquoi un site codé et pas un CMS comme WordPress ?"
-               content="Un site codé sera toujours plus fiable, plus rapide et plus performant. Personne n'a envie d'attendre qu'un site se charge. Ici, on fait du sur-mesure efficace!"
-            />
+            />            
             <AccordionItem
                title="Je fais comment en cas de problèmes sur le site ?"
-               content="Vous me contactez, par mail ou téléphone, je suis disponible 7j/7 pour assurer la maintenance. Puis on trouve une solution."
+               content="Vous me contactez, par mail ou téléphone, je suis disponible 7j/7, puis nous trouvons une solution."
             />
          </div>
       </div>

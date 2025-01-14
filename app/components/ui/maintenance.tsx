@@ -33,8 +33,8 @@ function Maintenance() {
             </p>
             <div className="w-full  border-t border-gray-500 my-4"></div>
             <ul className="mb-4 text-black list-disc list-inside py-4">
-               <li>5 retouches / modifications</li>
-
+               <li>Maintenance & mise à jour globales</li>
+               <li>Mise à jour et verification des systèmes de sécurité</li>
                <li>Ajout & modification de contenu</li>
             </ul>
             <a

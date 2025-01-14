@@ -56,9 +56,6 @@ const Pricing: React.FC = () => {
          <div className="flex justify-center">
             <CTA />
          </div>
-         <div className="flex justify-center">
-            <BackPage />
-         </div>
       </div>
    );
 };

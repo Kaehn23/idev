@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import About from "./components/About";
 import Services from "./components/Services";
 import ScrollToTop from "./components/ui/ScrollToTop";
+import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -42,6 +43,7 @@ export default function Home() {
                <About />
                <Services />
                <FAQ />
+               <Pricing />
                <Projects />
                <Contact />
                <ScrollToTop />
