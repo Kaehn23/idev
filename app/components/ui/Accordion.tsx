@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 
-// Define types for AccordionItem props
+
 interface AccordionItemProps {
    title: string;
    content: string;
@@ -69,7 +69,7 @@ const Accordion: React.FC = () => {
                content="En effet, mes sites sont parfaitement optimisés pour augmenter le SEO naturel de Google."
             />            
             <AccordionItem
-               title="Je fais comment en cas de problèmes sur le site ?"
+               title="Je fais comment en cas de problèmes ?"
                content="Vous me contactez, par mail ou téléphone, je suis disponible 7j/7, puis nous trouvons une solution."
             />
          </div>
