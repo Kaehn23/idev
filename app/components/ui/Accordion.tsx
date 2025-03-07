@@ -72,6 +72,7 @@ const Accordion: React.FC = () => {
                title="Je fais comment en cas de problèmes ?"
                content="Vous me contactez, par mail ou téléphone, je suis disponible 7j/7, puis nous trouvons une solution."
             />
+            
          </div>
       </div>
    );
