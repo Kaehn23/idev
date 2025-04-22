@@ -31,15 +31,7 @@ function Projects() {
          description: "Site pour une psychanalyste de la côte basque.",
          link: "https://www.magrispsy.com/",
          tags: [{ name: "Site Web", colorClasses: "bg-orange-200 text-black" }],
-      },
-      {
-         imageSrc: "/assets/projects/albatrossCard.jpg",
-         title: "Al'Batross",
-         description:
-            "Site pour une association de Reduction des Risques dans le Var.",
-         link: "https://www.asso-albatross.fr/",
-         tags: [{ name: "Site Web", colorClasses: "bg-orange-200 text-black" }],
-      },
+      },      
       {
          imageSrc: "/assets/projects/sudDecapageCard.png",
          title: "Sud-Décapage",
