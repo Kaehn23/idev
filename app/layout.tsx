@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { ThemeProvider } from "./components/theme-provider";
 import { Montserrat } from "next/font/google";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 // Utilisation de Montserrat pour toute la police de votre site
@@ -56,7 +58,9 @@ export default function RootLayout({
                enableSystem
                disableTransitionOnChange
             >
+               <Navbar />
                {children}
+               <Footer />
             </ThemeProvider>
          </body>
       </html>

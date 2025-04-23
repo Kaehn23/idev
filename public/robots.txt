@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /politique-de-confidentialite
+
+Sitemap: https://j-idev.com/sitemap.xml 

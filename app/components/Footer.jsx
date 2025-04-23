@@ -85,6 +85,12 @@ const Footer = () => {
                         >
                            Mentions Légales
                         </Link>
+                        <Link
+                           href="/politique-de-confidentialite"
+                           className="hover:underline"
+                        >
+                           Politique de Confidentialité
+                        </Link>
                      </div>
                   </div>
                </div>
