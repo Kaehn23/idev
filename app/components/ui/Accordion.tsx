@@ -58,7 +58,7 @@ const Accordion: React.FC = () => {
             />
             <AccordionItem
                title="Comment faire pour modifier le contenu de mon site ?"
-               content="Chaque site est livré avec une maintenance offerte de 3 mois. Ensuite, à nous de trouver le forfait le plus adapté à vos besoins."
+               content="Selon l'offre choisie, vous pouvez modifier le contenu de votre site à tout moment si vous avez souscrit à un pack 'Back-Office'."
             />            
             <AccordionItem
                title="Quels sont les avantages d'un site responsive ?"
@@ -66,7 +66,7 @@ const Accordion: React.FC = () => {
             />
             <AccordionItem
                title="Le site est-il optimisé pour les moteurs de recherche ?"
-               content="En effet, mes sites sont parfaitement optimisés pour augmenter le SEO naturel de Google."
+               content="En effet, les sites sont parfaitement optimisés pour augmenter le SEO naturel de Google."
             />            
             <AccordionItem
                title="Je fais comment en cas de problèmes ?"

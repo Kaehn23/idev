@@ -33,12 +33,15 @@ function Services() {
       {
          title: "Création",
          description: [
-            "Un design moderne",
+            "Sites internet",
+            "Applications mobiles",
+            "Design moderne",
+            "Optimisation du SEO naturel",
             "Responsive & adapté aux tablettes & mobiles",
             "Référencement naturel",
             "Rapide et optimisé",
             "Hébergement offert pendant un an",
-            "3 mois de maintenance offerte",
+            "Nom de domaine offert pendant deux ans",
             "Support 7j/7",
          ],
       },
@@ -52,14 +55,18 @@ function Services() {
             "Optimisation des images & vidéos",
          ],
       },
+      
       {
          title: "Maintenance",
          description: [
             "Surveillance régulière des performances",
+            "Optimisation des performances",
             "Mise à jour de contenu",
             "Corrections de bugs",
             "Refonte des designs existants",
             "Refactorisation",
+            "Migration de code-base",
+                       
          ],
       },
    ];

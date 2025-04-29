@@ -1,5 +1,5 @@
 import React from 'react';
-import BackPage from '@/app/components/ui/BackPage';
+
 
 
 function MentionsLegales() {
@@ -38,7 +38,7 @@ function MentionsLegales() {
 
       <footer className="mt-8">
         <p className="text-sm text-gray-600">&copy; {new Date().getFullYear()} J-iDev.com Tous droits réservés.</p>
-        <BackPage/>
+        
       </footer>
     </main>
     

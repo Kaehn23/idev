@@ -1,17 +1,29 @@
 import Head from "next/head";
-
+import { Metadata } from "next";
 import Main from "./components/Main";
 import About from "./components/About";
 import Services from "./components/Services";
 import ScrollToTop from "./components/ui/ScrollToTop";
-import Pricing from "./components/Pricing";
 import FAQ from "./components/FAQ";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-
 import Lenis from "./components/ui/lenis";
 import CookieConsent from "./components/ui/CookieConsent";
 
+export const metadata: Metadata = {
+   title: "J-iDev - Solutions numériques",
+   description:
+      "Agence web professionnelle spécialisée dans la création de sites web responsive, maintenance et SEO. Solutions sur mesure pour votre présence en ligne. Contactez-nous pour un devis gratuit.",
+   keywords:
+      "J-iDev, Solutions numériques, Agence web, Création de sites web, Maintenance, SEO, Développement web, Conception web, Hébergement web, Marketing digital, E-commerce, UX/UI, Référencement naturel, Stratégie digitale, Audit SEO",
+   openGraph: {
+      url: "https://www.J-iDev.com",
+      title: "J-iDev - Solutions numériques",
+      description:
+         "Agence web professionnelle spécialisée dans la création de sites web responsive, maintenance et SEO. Solutions sur mesure pour votre présence en ligne. Contactez-nous pour un devis gratuit.",
+}
+};
+   
 export default function Home() {
    return (
       <>
@@ -83,7 +95,7 @@ export default function Home() {
                <About />
                <Services />
                <FAQ />
-               <Pricing />
+               
                <Projects />
                <Contact />
                <ScrollToTop />

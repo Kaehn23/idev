@@ -1,5 +1,26 @@
 import Head from 'next/head';
+import { Metadata } from "next";
 
+
+export const metadata: Metadata = {
+   title: "Politique de Confidentialité - J-iDev.com",
+   description:
+      "Découvrez notre politique de confidentialité et comment nous protégeons vos données personnelles.",
+   keywords:
+      "Politique de Confidentialité, J-iDev.com, IPARRAGUIRRE Jérémy, Programmation informatique, Hébergement Vercel",
+   openGraph: {
+      url: "https://www.J-iDev.com/politique-de-confidentialite",
+      title: "Politique de Confidentialité - J-iDev.com",
+      description:
+         "Découvrez notre politique de confidentialité et comment nous protégeons vos données personnelles.",
+      siteName: "J-iDev.com",
+      locale: "fr_FR",
+      type: "website",
+   },
+   alternates: {
+      canonical: "https://www.J-iDev.com/politique-de-confidentialite",
+   },
+};
 export default function PrivacyPolicy() {
    return (
       <>

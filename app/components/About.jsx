@@ -75,7 +75,7 @@ const About = () => {
         >
           <div className="text-base sm:text-lg md:text-xl text-gray-600">
             <h2 className="font-semibold mb-2">
-              Développeur spécialisé dans le Web, j'accompagne les entreprises dans leur succès sur internet.
+              Développeur fullstack, j'accompagne les entreprises dans leur succès sur internet & la mise en place de leur stratégie digitale.
             </h2>
             <p className="pb-2">
               J'applique un soin tout particulier à rendre chaque{" "}

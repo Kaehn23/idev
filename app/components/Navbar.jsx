@@ -105,6 +105,18 @@ const Navbar = () => {
                         Services
                      </motion.li>
                   </Link>
+                  <Link href="/nosoffres">
+                     <motion.li
+                        className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
+                        whileHover={{
+                           scale: 1.2,
+                           transition: { type: "spring", stiffness: 100 },
+                        }}
+                        whileTap={{ scale: 0.95 }}
+                     >
+                        Nos Offres
+                     </motion.li>
+                  </Link>
                   <Link href="/#faq">
                      <motion.li
                         className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
@@ -197,6 +209,11 @@ const Navbar = () => {
                      <Link href="/#services" onClick={handleLinkClick}>
                         <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-300">
                            Services
+                        </li>
+                     </Link>
+                     <Link href="/nosoffres" onClick={handleLinkClick}>
+                        <li className="ml-10 p-2 text-sm uppercase hover:border-b hover:border-gray-300">
+                           Nos Offres
                         </li>
                      </Link>
                      <Link href="/#faq" onClick={handleLinkClick}>

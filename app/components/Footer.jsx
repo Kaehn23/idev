@@ -55,9 +55,13 @@ const Footer = () => {
                         <div className="font-bold uppercase text-green-300 pb-2">
                            Explorez
                         </div>
+                        <Link href="/nosoffres" className="hover:underline">
+                           Nos Offres
+                        </Link> 
                         <Link href="#services" className="hover:underline">
                            Services
                         </Link>
+                         
                      </div>
 
                      {/* L'Entreprise */}

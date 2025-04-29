@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import MentionLegales from "./components/MentionsLegales";
-import Navbar from "../components/Navbar";
+
 import Lenis from "../components/ui/lenis";
 
 export const metadata: Metadata = {
@@ -27,7 +27,7 @@ export default function Home() {
    return (
       <Lenis>
          <header>
-            <Navbar />
+         
          </header>
 
          <main>
