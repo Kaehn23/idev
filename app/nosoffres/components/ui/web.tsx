@@ -103,7 +103,7 @@ function Web() {
                   <li className="list-none">
                      <br />
                   </li>{" "}
-                  
+                  <li>Nom de domaine offert pendant 2 ans</li>
                   <li>Hébergement offert pendant 1 an</li>                                                         
                   <li>3 Mois de maintenance offerte</li>
                   <li className="list-none">

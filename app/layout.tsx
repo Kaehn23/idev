@@ -5,43 +5,100 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import "./globals.css";
 
-// Utilisation de Montserrat pour toute la police de votre site
+
+
+// Optimize font loading with preload and subset
 const montserrat = Montserrat({
    subsets: ["latin"],
-   variable: "--font-montserrat", // Définir une variable CSS pour Montserrat
+   variable: "--font-montserrat",
+   display: "swap",
+   preload: true,
+   weight: ["400", "500", "600", "700"],
+   fallback: ["system-ui", "arial"],
+   adjustFontFallback: true,
 });
 
+// Preload critical assets
+const preloadAssets = [
+   "/assets/logo/favicon.ico",
+   
+   "/assets/Vector.webp"
+];
+
 export const metadata: Metadata = {
-   title: "J-iDev",
+   metadataBase: new URL('https://j-idev.com'),
+   title: {
+      default: "J-iDev - Solutions Web Professionnelles",
+      template: "%s | J-iDev"
+   },
    description:
       "J-iDev propose des solutions de sites web responsives, rapides et optimisés pour le SEO naturel de Google. Boostez votre présence en ligne pour augmenter vos ventes.",
+   keywords: [
+      "développement web",
+      "création site web",
+      "maintenance site web",
+      "SEO",
+      "agence web",
+      "e-commerce",
+      "conception web",
+      "hébergement web",
+      "marketing digital"
+   ],
+   authors: [{ name: "J-iDev" }],
+   creator: "J-iDev",
+   publisher: "J-iDev",
+   formatDetection: {
+      email: false,
+      address: false,
+      telephone: false,
+   },
    icons: {
       icon: "/assets/logo/favicon.ico",
+      
    },
    openGraph: {
-      title: "J-iDev",
+      title: "J-iDev - Solutions Web Professionnelles",
       description:
-         "J-iDev - Création de sites web, maintenance & SEO - Sites vitrines, Landing Page. Nos sites sont rapide et optimisés pour répondre à vos besoin, et augmenter vos profits",
-      url: "https://idev-nine.vercel.app/",
+         "J-iDev - Création de sites web, maintenance & SEO - Sites vitrines, Landing Page. Nos sites sont rapides et optimisés pour répondre à vos besoins et augmenter vos profits",
+      url: "https://j-idev.com/",
+      siteName: "J-iDev",
       images: [
          {
-            url: "https://idev-nine.vercel.app/assets/Vector.webp",
+            url: "https://j-idev.com/assets/Vector.webp",
             width: 1200,
             height: 630,
-            alt: "Image opengraph",
+            alt: "J-iDev - Solutions Web Professionnelles",
          },
       ],
-      type: "website",
       locale: "fr_FR",
-      siteName: "J-iDev",
+      type: "website",
    },
    twitter: {
       card: "summary_large_image",
-      title: "J-iDev",
+      title: "J-iDev - Solutions Web Professionnelles",
       description: "J-iDev - Création de sites web, maintenance & SEO",
-      images: ["https://idev-nine.vercel.app/assets/Vector.png"],
+      images: ["https://j-idev.com/assets/Vector.webp"],
+      creator: "@jidev",
+   },
+   robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+         index: true,
+         follow: true,
+         'max-video-preview': -1,
+         'max-image-preview': 'large',
+         'max-snippet': -1,
+      },
+   },
+   verification: {
+      google: 'your-google-site-verification',
+   },
+   alternates: {
+      canonical: 'https://j-idev.com',
    },
 };
+
 export default function RootLayout({
    children,
 }: Readonly<{
@@ -49,19 +106,63 @@ export default function RootLayout({
 }>) {
    return (
       <html lang="fr">
-         <body
-            className={`${montserrat.variable} antialiased`} // Appliquer Montserrat globalement ici
-         >
+         <head>
+            {/* Preload critical assets */}
+            {preloadAssets.map((asset) => (
+               <link
+                  key={asset}
+                  rel="preload"
+                  href={asset}
+                  as={asset.endsWith('.webp') ? 'image' : 'image'}
+               />
+            ))}
+            
+            {/* Preload critical fonts */}
+            
+            
+            {/* Structured Data */}
+            <script
+               type="application/ld+json"
+               dangerouslySetInnerHTML={{
+                  __html: JSON.stringify({
+                     "@context": "https://schema.org",
+                     "@type": "Organization",
+                     "name": "J-iDev",
+                     "url": "https://j-idev.com",
+                     "logo": "https://j-idev.com/assets/logo/logo.png",
+                     "sameAs": [
+                        "https://www.facebook.com/jidev",
+                        "https://www.linkedin.com/company/jidev",
+                        "https://twitter.com/jidev"
+                     ],
+                     "contactPoint": {
+                        "@type": "ContactPoint",
+                        "telephone": "+33-XX-XX-XX-XX",
+                        "contactType": "customer service",
+                        "areaServed": "FR",
+                        "availableLanguage": ["French"]
+                     }
+                  })
+               }}
+            />
+         </head>
+         <body className={`${montserrat.variable} antialiased`}>
             <ThemeProvider
                attribute="class"
                defaultTheme="light"
                enableSystem
                disableTransitionOnChange
             >
+               
                <Navbar />
-               {children}
+               <main role="main">
+                  {children}
+               </main>
                <Footer />
             </ThemeProvider>
+
+            {/* Optimized Script Loading */}
+            
          </body>
       </html>
    );

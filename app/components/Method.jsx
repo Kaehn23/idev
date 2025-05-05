@@ -47,11 +47,12 @@ function Method() {
                 whileTap={{ scale: 0.95 }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1522881193457-37ae97c905bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/assets/talk.jpg"
                   height="1000"
                   width="1000"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="Prise d'informations"
+                  
                 />
               </motion.div>
             </CardItem>
@@ -82,11 +83,12 @@ function Method() {
                 whileTap={{ scale: 0.95 }}
               >
                 <Image
-                  src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/assets/conception.jpg"
                   height="1000"
                   width="1000"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="Conception"
+                  
                 />
               </motion.div>
             </CardItem>
@@ -122,6 +124,7 @@ function Method() {
                   width="1000"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="Déploiement"
+                  
                 />
               </motion.div>
             </CardItem>

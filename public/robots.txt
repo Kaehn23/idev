@@ -1,7 +1,51 @@
+# Allow all crawlers
 User-agent: *
 Allow: /
+
+# Sitemap location
+Sitemap: https://j-idev.com/sitemap.xml
+
+# Disallow admin and private areas
+Disallow: /admin/
+Disallow: /private/
 Disallow: /api/
 Disallow: /_next/
-Disallow: /politique-de-confidentialite
+Disallow: /static/
+Disallow: /node_modules/
 
-Sitemap: https://j-idev.com/sitemap.xml 
+# Crawl-delay for all bots
+Crawl-delay: 5
+
+# Specific rules for Googlebot
+User-agent: Googlebot
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.woff
+Allow: /*.woff2
+Allow: /*.ttf
+
+# Specific rules for Googlebot-Image
+User-agent: Googlebot-Image
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.webp
+Allow: /*.svg
+Disallow: /assets/private/
+
+# Specific rules for Googlebot-Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+Allow: /*.css
+Allow: /*.js
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.webp
+
+# Host directive
+Host: j-idev.com 
