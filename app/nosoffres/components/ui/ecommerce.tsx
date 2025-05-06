@@ -21,6 +21,7 @@ function ecommerce() {
                <div className="w-full  border-t border-gray-500 my-4"></div>
                <ul className="mb-4 text-black list-disc list-inside py-4 font-semibold">
                   <li>Site E-Commerce complet</li>
+                  <li>Design moderne sur mesure</li>
                   <li>Sécurité renforcée</li>
                   <li>Animations modernes</li>
                   <li>Onglets sur demande</li>
@@ -35,6 +36,7 @@ function ecommerce() {
                   </li>{" "}
                   <li>Intégration de PayPal</li>
                   <li>Intégration de Stripe (paiement en ligne)</li>
+                  <li>Intégration divers paiements en ligne</li>
                   <li className="list-none">
                      <br />
                   </li>{" "}
@@ -43,7 +45,7 @@ function ecommerce() {
                   <li>Gestion des stocks</li>
                   <li>Gestion des commandes</li>
                   <li>Gestion des clients</li>
-                  <li>Gestion des factures</li>
+                  <li>Gestion des réclamations</li>
                   <li>Gestion des paiements</li>
                   <li className="list-none">
                      <br />

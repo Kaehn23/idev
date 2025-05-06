@@ -27,7 +27,7 @@ export default function CookieConsent() {
    if (!showConsent) return null;
 
    return (
-      <div className="fixed bottom-0 left-0 right-0 bg-gray-800 text-white p-4 z-50">
+      <div className="fixed bottom-0 left-0 right-0 bg-green-500 text-black p-4 z-50">
          <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex-1">
                <p className="text-sm">
@@ -42,7 +42,7 @@ export default function CookieConsent() {
             <div className="flex gap-4">
                <button
                   onClick={acceptCookies}
-                  className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded"
+                  className="bg-green-300 hover:bg-green-700 text-black px-4 py-2 rounded"
                >
                   Accepter
                </button>

@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { HoverEffect } from "./ui/card-hover-effect";
 import { FlipWords } from "./ui/flip-word";
@@ -171,7 +172,9 @@ function Services() {
                }}
             >
                Sinon, il y a aussi la{" "}
+               <Link href="/#faq">
                <span className="font-bold">Foire Aux Questions (FAQ)</span>
+               </Link>
             </motion.div>
 
             {/* Animations SVG et Icône */}

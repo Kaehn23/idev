@@ -48,119 +48,124 @@ const Navbar = () => {
    };
 
    return (
-      <div
-         style={{ backgroundColor: "rgba(128,128,128,0.5)" }}
-         className={ 
-            shadow
-               ? "fixed w-full h-20 shadow-xl z-[100] shadow-transition"
-               : "fixed w-full h-20 z-[100]"
-         }
-      >
-         <div className="flex justify-between md:justify-center items-center w-[full] h-full px-2 2xl:px-16 glass-effect-bar scroll-smooth">
-            <div className="block md:hidden">
-               <Link href="/">
-                  <Image
-                     src="/assets/navLogo2.png"
-                     alt="logo idev"
-                     width={40}
-                     height={40}
-                  />
-               </Link>
-            </div>
-            <div className="hidden md:flex">
-               <ul style={{ color: "#FFFFFF" }} className="flex space-x-4">
+      <div className="fixed w-full h-20 z-[100] flex justify-center items-center ">
+         <motion.div
+            initial={{ width: "66.666667%", boxShadow: "none", borderRadius: "16px" }}
+            animate={{ 
+               width: shadow ? "100%" : "66.666667%",
+               borderRadius: shadow ? "0px" : "0px",
+               boxShadow: shadow ? "0 10px 15px -3px rgb(0 0 0 / 0.1)" : "none"
+            }}
+            transition={{ duration: 0.3, ease: "easeInOut" }}
+            style={{ backgroundColor: "rgba(128,128,128,0.5)" }}
+            className="h-20 "
+         >
+            <div className="flex justify-between md:justify-center items-center w-full h-full px-2 2xl:px-16 glass-effect-bar scroll-smooth">
+               <div className="block md:hidden">
                   <Link href="/">
-                     <motion.li
-                        className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
-                        whileHover={{
-                           scale: 1.2,
-                           transition: { type: "spring", stiffness: 100 },
-                        }}
-                        whileTap={{ scale: 0.95 }}
-                     >
-                        Accueil
-                     </motion.li>
+                     <Image
+                        src="/assets/navLogo2.png"
+                        alt="logo idev"
+                        width={40}
+                        height={40}
+                     />
                   </Link>
-                  <Link href="/#about">
-                     <motion.li
-                        className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
-                        whileHover={{
-                           scale: 1.2,
-                           transition: { type: "spring", stiffness: 100 },
-                        }}
-                        whileTap={{ scale: 0.95 }}
-                     >
-                        À propos
-                     </motion.li>
-                  </Link>
-                  <Link href="/#services">
-                     <motion.li
-                        className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
-                        whileHover={{
-                           scale: 1.2,
-                           transition: { type: "spring", stiffness: 100 },
-                        }}
-                        whileTap={{ scale: 0.95 }}
-                     >
-                        Services
-                     </motion.li>
-                  </Link>
-                  <Link href="/nosoffres">
-                     <motion.li
-                        className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
-                        whileHover={{
-                           scale: 1.2,
-                           transition: { type: "spring", stiffness: 100 },
-                        }}
-                        whileTap={{ scale: 0.95 }}
-                     >
-                        Nos Offres
-                     </motion.li>
-                  </Link>
-                  <Link href="/#faq">
-                     <motion.li
-                        className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
-                        whileHover={{
-                           scale: 1.2,
-                           transition: { type: "spring", stiffness: 100 },
-                        }}
-                        whileTap={{ scale: 0.95 }}
-                     >
-                        FAQ
-                     </motion.li>
-                  </Link>
-                  <Link href="/#projects">
-                     <motion.li
-                        className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
-                        whileHover={{
-                           scale: 1.2,
-                           transition: { type: "spring", stiffness: 100 },
-                        }}
-                        whileTap={{ scale: 0.95 }}
-                     >
-                        Projets
-                     </motion.li>
-                  </Link>
-                  <Link href="/#contact">
-                     <motion.li
-                        className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
-                        whileHover={{
-                           scale: 1.2,
-                           transition: { type: "spring", stiffness: 100 },
-                        }}
-                        whileTap={{ scale: 0.95 }}
-                     >
-                        Contact
-                     </motion.li>
-                  </Link>
-               </ul>
-            </div>
-            <div className="flex md:hidden">
-               <div onClick={handleNav} className="cursor-pointer">
-                  <AiOutlineMenu size={25} />
+               </div>
+               <div className="hidden md:flex">
+                  <ul style={{ color: "#FFFFFF" }} className="flex space-x-4">
+                     <Link href="/">
+                        <motion.li
+                           className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
+                           whileHover={{
+                              scale: 1.2,
+                              transition: { type: "spring", stiffness: 100 },
+                           }}
+                           whileTap={{ scale: 0.95 }}
+                        >
+                           Accueil
+                        </motion.li>
+                     </Link>
+                     <Link href="/#about">
+                        <motion.li
+                           className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
+                           whileHover={{
+                              scale: 1.2,
+                              transition: { type: "spring", stiffness: 100 },
+                           }}
+                           whileTap={{ scale: 0.95 }}
+                        >
+                           À propos
+                        </motion.li>
+                     </Link>
+                     <Link href="/#services">
+                        <motion.li
+                           className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
+                           whileHover={{
+                              scale: 1.2,
+                              transition: { type: "spring", stiffness: 100 },
+                           }}
+                           whileTap={{ scale: 0.95 }}
+                        >
+                           Services
+                        </motion.li>
+                     </Link>
+                     <Link href="/nosoffres">
+                        <motion.li
+                           className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
+                           whileHover={{
+                              scale: 1.2,
+                              transition: { type: "spring", stiffness: 100 },
+                           }}
+                           whileTap={{ scale: 0.95 }}
+                        >
+                           Nos Offres
+                        </motion.li>
+                     </Link>
+                     <Link href="/#faq">
+                        <motion.li
+                           className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
+                           whileHover={{
+                              scale: 1.2,
+                              transition: { type: "spring", stiffness: 100 },
+                           }}
+                           whileTap={{ scale: 0.95 }}
+                        >
+                           FAQ
+                        </motion.li>
+                     </Link>
+                     <Link href="/#projects">
+                        <motion.li
+                           className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
+                           whileHover={{
+                              scale: 1.2,
+                              transition: { type: "spring", stiffness: 100 },
+                           }}
+                           whileTap={{ scale: 0.95 }}
+                        >
+                           Projets
+                        </motion.li>
+                     </Link>
+                     <Link href="/#contact">
+                        <motion.li
+                           className="p-2 text-sm text-bold uppercase hover:rounded-2xl hover:bg-black"
+                           whileHover={{
+                              scale: 1.2,
+                              transition: { type: "spring", stiffness: 100 },
+                           }}
+                           whileTap={{ scale: 0.95 }}
+                        >
+                           Contact
+                        </motion.li>
+                     </Link>
+                  </ul>
+               </div>
+               <div className="flex md:hidden">
+                  <div onClick={handleNav} className="cursor-pointer">
+                     <AiOutlineMenu size={25} />
+                  </div>
                </div>
             </div>
-         </div>
+         </motion.div>
 
          <div
             className={

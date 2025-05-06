@@ -96,7 +96,7 @@ const Main: React.FC = () => {
                content="Nous créons des sites web responsive, optimisés et rapides, avec des services de refonte, maintenance et SEO."
             />
             <meta property="og:image" content="/assets/og-image.jpg" />
-            <meta property="og:url" content="https://votresite.com" />
+            <meta property="og:url" content="https://j-idev.com" />
             <meta property="og:type" content="website" />
             {/* Twitter Card Meta Tags */}
             <meta name="twitter:card" content="summary_large_image" />

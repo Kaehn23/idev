@@ -30,7 +30,7 @@ function Web() {
 
                <div className="w-full  border-t border-gray-500 my-4"></div>
                <ul className="mb-4 text-black list-disc list-inside py-4 font-semibold">
-                  <li>Site internet "One Page"</li>
+                  <li>Site internet statique"One Page"</li>
                   <li>Onglets "Accueil", "A Propos", "Services", "Contact"</li>
                   <li className="list-none">
                      <br />
@@ -86,7 +86,7 @@ function Web() {
                </h3>
                <div className="w-full  border-t border-gray-500 my-4"></div>
                <ul className="mb-4 text-black list-disc list-inside py-4 font-semibold">
-                  <li>Site vitrine complet</li>
+                  <li>Site vitrine animé complet</li>
                   <li>Animations modernes</li>
                   <li>Onglets "Accueil", "A Propos", "Services", "Contact"</li>
                   <li>Onglets sur demande</li>

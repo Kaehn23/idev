@@ -9,7 +9,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Lenis from "./components/ui/lenis";
 import CookieConsent from "./components/ui/CookieConsent";
-import Method from "./components/Method";
+
 
 export const metadata: Metadata = {
    title: "J-iDev - Solutions numériques",
@@ -121,10 +121,8 @@ export default function Home() {
             <main role="main">
                <Main />
                <About />
-               <Services />
-               <Method />
+               <Services />               
                <FAQ />
-
                <Projects />
                <Contact />
                <ScrollToTop />

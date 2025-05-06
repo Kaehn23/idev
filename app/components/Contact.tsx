@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { WavyBackground } from "./ui/wavy-background";
 import { ContactForm } from "./ui/ContactForm";
 
 function Contact() {
