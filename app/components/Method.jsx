@@ -119,7 +119,7 @@ function Method() {
                 whileTap={{ scale: 0.95 }}
               >
                 <Image
-                  src="https://plus.unsplash.com/premium_photo-1683836722608-60ab4d1b58e5?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                  src="/assets/upload.jpg"
                   height="1000"
                   width="1000"
                   className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"

@@ -31,7 +31,7 @@ function Web() {
                <div className="w-full  border-t border-gray-500 my-4"></div>
                <ul className="mb-4 text-black list-disc list-inside py-4 font-semibold">
                   <li>Site internet "One Page"</li>
-                  <li>Onglets "Acceuil", "A Propos", "Services", "Contact"</li>
+                  <li>Onglets "Accueil", "A Propos", "Services", "Contact"</li>
                   <li className="list-none">
                      <br />
                   </li>{" "}
@@ -88,7 +88,7 @@ function Web() {
                <ul className="mb-4 text-black list-disc list-inside py-4 font-semibold">
                   <li>Site vitrine complet</li>
                   <li>Animations modernes</li>
-                  <li>Onglets " Acceuil", "A Propos", "Services", "Contact"</li>
+                  <li>Onglets "Accueil", "A Propos", "Services", "Contact"</li>
                   <li>Onglets sur demande</li>
                   <li>Pages supplémentaires (Description détaillée de vos services, prestations, etc.)</li>
                   
