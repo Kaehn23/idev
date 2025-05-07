@@ -29,7 +29,7 @@ function FAQ() {
 
             <Accordion />
 
-            <section className="w-1/2 max-w-6xl text-black text-2xl md:text-2xl sm:text-2xl text-center mx-auto bg-white bg-opacity-30 dark:bg-black dark:bg-opacity-80 rounded-lg shadow-xl p-4 md:p-8">
+            <section className="md:w-1/2 max-w-6xl w-auto glass-silver text-black text-2xl md:text-2xl sm:text-2xl text-center mx-auto dark:bg-black dark:bg-opacity-80 rounded-lg shadow-xl p-4 md:p-8">
                <p className="leading-relaxed">
                   <span className="font-bold text-green-400">
                      Contactez nous&nbsp;
@@ -39,7 +39,9 @@ function FAQ() {
                      d'informations
                   </span>
                </p>
+               
             </section>
+           
             <div className="flex justify-center">
                <CTA />
             </div>
