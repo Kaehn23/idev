@@ -3,7 +3,7 @@ import React from "react";
 function Maintenance() {
    return (
       <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-         <div className="border rounded-lg p-6 shadow-lg">
+         <div className="border rounded-lg p-6 shadow-lg glass-silver">
             <h2 className="text-2xl font-semibold mb-2 text-black text-center">
                Back-Office Pack
             </h2>
@@ -32,7 +32,7 @@ function Maintenance() {
             </a>
          </div>
 
-         <div className="border rounded-lg p-6 shadow-lg">
+         <div className="border rounded-lg p-6 shadow-lg glass-silver">
             <h2 className="text-2xl font-semibold mb-2 text-black text-center">
                Maintenance Pack
             </h2>
@@ -61,7 +61,7 @@ function Maintenance() {
                Prendre rendez-vous
             </a>
          </div>
-         <div className="border rounded-lg p-6 shadow-lg">
+         <div className="border rounded-lg p-6 shadow-lg glass-silver">
             <h2 className="text-2xl font-semibold mb-2 text-black text-center">
                Refonte site-web
             </h2>

@@ -4,7 +4,7 @@ function Seo() {
    return (
       <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
          <div className="flex justify-center col-span-1 md:col-span-3">
-            <div className="border rounded-lg p-6 shadow-lg">
+            <div className="border rounded-lg p-6 shadow-lg glass-silver">
                <h2 className="text-2xl font-semibold mb-2 text-black text-center">
                   Optimisation Pack
                </h2>

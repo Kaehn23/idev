@@ -16,18 +16,7 @@ function Contact() {
    };
 
    return (
-      // <WavyBackground
-      //   waveWidth={100}
-      //   blur={3}
-      //   colors={[
-      //     "#F0F067",
-      //     "#c084fc",
-      //     "#38bdf8",
-      //     "#56E33B",
-      //     "#22d3ee",
-      //     "#4cbb7",
-      //   ]}
-      // >
+      
       <motion.div
          id="contact"
          initial="hidden"
@@ -46,7 +35,7 @@ function Contact() {
             <ContactForm />
          </div>
       </motion.div>
-      // </WavyBackground>
+      
    );
 }
 

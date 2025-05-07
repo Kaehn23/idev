@@ -17,6 +17,15 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        silver: {
+          100: '#f6f7f8',
+          200: '#ebedef',
+          300: '#d6d8db',
+          400: '#b1b5b9',
+          500: '#8c9196',
+        },
+      },
       scrollBehavior: 'smooth',  
       animation: {
         aurora: "aurora 60s linear infinite",
@@ -32,6 +41,9 @@ module.exports = {
         },
       },
     },
+  },
+  variants: {
+    backdropBlur: ['responsive'],
   },
  plugins: [
   [nextui()],

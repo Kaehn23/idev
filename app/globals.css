@@ -134,3 +134,14 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.3); /* Bordure légère */  
   padding: 10px; /* Espacement interne */
 }
+
+.glass-silver {
+  @apply
+    bg-gradient-to-b
+    from-silver-100/80
+    via-silver-300/25
+    to-silver-500/30
+    backdrop-blur-2xl
+    border border-gray-200/20
+    rounded-2xl;
+}

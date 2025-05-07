@@ -58,7 +58,8 @@ const Accordion: React.FC = () => {
             />
             <AccordionItem
                title="Comment faire pour modifier le contenu de mon site ?"
-               content="Selon l'offre choisie, vous pouvez modifier le contenu de votre site à tout moment si vous avez souscrit à un pack 'Back-Office'."
+               content="Selon l'offre choisie, vous pouvez modifier le contenu de votre site à tout moment si vous avez souscrit à un pack 'Back-Office'.
+               Sinon, nous trouverons un forfait adapté à vos besoins."
             />            
             <AccordionItem
                title="Quels sont les avantages d'un site responsive ?"

@@ -4,7 +4,7 @@ function Web() {
    return (
       <div>
          <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6">
-            <div className="border rounded-lg p-6 shadow-lg">
+            <div className="border rounded-lg p-6 shadow-lg glass-silver">
                <h2 className="text-2xl font-semibold mb-2 text-black text-center underline">
                   Starter Pack
                </h2>
@@ -45,14 +45,14 @@ function Web() {
                   <li>Conformité RGPD</li>
                </ul>
                <div className="flex justify-center">
-                  <a
+                  {/* <a
                      href="https://cal.com/j-idev/30min?user=j-idev"
                      target="_blank"
                      rel="noopener noreferrer"
                      className="bg-orange-300 text-black  rounded hover:bg-orange-600 m-2 text-center justify-center relative w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 font-semibold text-sm sm:text-lg shadow-lg "
                   >
                      Voir un exemple
-                  </a>
+                  </a> */}
                   <a
                      href="https://cal.com/j-idev/30min?user=j-idev"
                      target="_blank"
@@ -64,7 +64,7 @@ function Web() {
                </div>
             </div>
 
-            <div className="border rounded-lg p-6 shadow-lg">
+            <div className="border rounded-lg p-6 shadow-lg glass-silver">
                <h2 className="text-2xl font-semibold mb-2 text-black text-center underline  ">
                   Premium Pack
                </h2>
@@ -113,14 +113,14 @@ function Web() {
                   <li>Conformité RGPD</li>
                </ul>
                <div className="flex justify-center">
-                  <a
+                  {/* <a
                      href="https://cal.com/j-idev/30min?user=j-idev"
                      target="_blank"
                      rel="noopener noreferrer"
                      className="bg-orange-300 text-black  rounded hover:bg-orange-500 m-2 text-center relative w-full sm:w-auto px-4 py-2 sm:px-6 sm:py-3 font-semibold text-sm sm:text-lg shadow-lg "
                   >
                      Voir un exemple
-                  </a>
+                  </a> */}
                   <a
                      href="https://cal.com/j-idev/30min?user=j-idev"
                      target="_blank"
@@ -132,7 +132,7 @@ function Web() {
                </div>
             </div>
 
-            <div className="border rounded-lg p-6 shadow-lg">
+            <div className="border rounded-lg p-6 shadow-lg glass-silver">
                <h2 className="text-2xl font-semibold mb-2 text-black text-center underline">
                   Custom Pack
                </h2>

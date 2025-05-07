@@ -3,7 +3,7 @@ import React from "react";
 function ecommerce() {
    return (
       <div>
-         <div className="mt-8 grid grid-cols-1 gap-6">
+         <div className="mt-8 grid grid-cols-1 gap-6 glass-silver">
             <div className="border rounded-lg p-6 shadow-lg text-center">
                <h2 className="text-2xl font-semibold mb-2 text-black text-center underline">
                   Platinum Pack
