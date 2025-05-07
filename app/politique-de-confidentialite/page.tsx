@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import { Metadata } from "next";
+import Lenis from '../components/ui/lenis';
 
 
 export const metadata: Metadata = {
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
 };
 export default function PrivacyPolicy() {
    return (
-      <>
+      <Lenis>
          <Head>
             <title>Politique de Confidentialité - J-iDev</title>
             <meta
@@ -101,6 +102,6 @@ export default function PrivacyPolicy() {
                </p>
             </section>
          </main>
-      </>
+      </Lenis>
    );
 } 

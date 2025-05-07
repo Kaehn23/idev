@@ -58,10 +58,9 @@ const Footer = () => {
                         <Link href="/nosoffres" className="hover:underline">
                            Nos Offres
                         </Link> 
-                        <Link href="#services" className="hover:underline">
+                        <Link href="/#services" className="hover:underline">
                            Services
                         </Link>
-                         
                      </div>
 
                      {/* L'Entreprise */}
@@ -69,13 +68,13 @@ const Footer = () => {
                         <div className="font-bold uppercase text-green-300 pb-2">
                            L'Entreprise
                         </div>
-                        <Link href="#about" className="hover:underline">
+                        <Link href="/#about" className="hover:underline">
                            À Propos
                         </Link>
-                        <Link href="#contact" className="hover:underline">
+                        <Link href="/#contact" className="hover:underline">
                            Contact
                         </Link>
-                        <div onClick={handleMailClick} className="cursor-pointer">Support</div>
+                        <div onClick={handleMailClick} className="cursor-pointer hover:underline">Support</div>
                      </div>
 
                      {/* Legal */}
