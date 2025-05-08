@@ -35,7 +35,7 @@ function Services() {
          title: "Création",
          description: [
             "Sites internet",
-            "Applications mobiles",
+            "Applications web & mobiles",
             "Design moderne",
             "Optimisation du SEO naturel",
             "Responsive & adapté aux tablettes & mobiles",
@@ -164,7 +164,7 @@ function Services() {
 
             {/* Section FAQ */}
             <motion.div
-               className="text-center text-lg sm:text-xl lg:text-2xl mt-6 text-black"
+               className="text-center text-lg sm:text-xl lg:text-2xl mt-6 text-black glass-silver max-w-2xl mx-auto p-2"
                variants={itemVariants}
                whileHover={{
                   scale: 1.05,

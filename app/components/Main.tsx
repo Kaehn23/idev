@@ -146,7 +146,7 @@ const Main: React.FC = () => {
                   {/* Sous-titre */}
                   <motion.h2
                      variants={itemVariants}
-                     className="text-3xl md:text-7xl font-bold sm:text-2xl text-black text-center pb-4"
+                     className="text-3xl md:text-7xl font-bold sm:text-2xl text-black text-center p-4"
                   >
                      Attirez plus de clients
                   </motion.h2>
@@ -168,7 +168,7 @@ const Main: React.FC = () => {
                   {/* Typewriter Effect Smooth */}
                   <motion.div
                      variants={itemVariants}
-                     className="w-full max-w-2xl text-center"
+                     className="w-full md:max-w-2xl md:text-2xl flex justify-center text-center glass-silver"
                   >
                      <h3 className="sr-only">Description des services</h3>
                      <Suspense fallback={<LoadingPlaceholder />}>
