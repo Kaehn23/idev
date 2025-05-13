@@ -138,7 +138,7 @@ const Main: React.FC = () => {
                      className="text-3xl md:text-7xl font-bold text-center m-4"
                   >
                      <Suspense fallback={<LoadingPlaceholder />}>
-                        <Highlight className="text-black md:text-7xl sm:mt-4 mx-auto">
+                        <Highlight className="text-black md:text-7xl sm:mt-4 mx-auto underline decoration-4 ">
                            Votre vitrine en ligne
                         </Highlight>
                      </Suspense>
