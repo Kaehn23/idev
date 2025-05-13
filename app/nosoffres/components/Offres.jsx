@@ -67,7 +67,7 @@ function Offres() {
                 </h1>
 
                 <section>
-                    <h2 className="text-black text-3xl font-semibold text-center m-4 pt-4 ">
+                    <h2 className="text-black text-3xl font-semibold text-center m-4 pt-4 decoration-4 underline decoration-green-300 ">
                         Création de sites web
                     </h2>
                     <article>
@@ -76,7 +76,7 @@ function Offres() {
                 </section>
 
                 <section>
-                    <h2 className="text-black text-3xl font-semibold text-center m-4 pt-4">
+                    <h2 className="text-black text-3xl font-semibold text-center m-4 pt-4 decoration-4 underline decoration-orange-300 ">
                         Création de sites E-Commerce
                     </h2>
                     <article>
@@ -85,7 +85,7 @@ function Offres() {
                 </section>
 
                 <section>
-                    <h2 className="text-black text-3xl font-semibold text-center m-4 pt-4">
+                    <h2 className="text-black text-3xl font-semibold text-center m-4 pt-4 decoration-4 underline decoration-green-300 ">
                         Maintenance
                     </h2>
                     <article>
@@ -94,7 +94,7 @@ function Offres() {
                 </section>
 
                 <section>
-                    <h2 className="text-black text-3xl font-semibold text-center m-4 pt-4">
+                    <h2 className="text-black text-3xl font-semibold text-center m-4 pt-4 decoration-4 underline decoration-orange-300 ">
                         SEO
                     </h2>
                     <article>

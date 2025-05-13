@@ -8,6 +8,7 @@ import Link from "next/link";
 import { FlipWords } from "./ui/flip-word";
 import { Highlight } from "./ui/hero-highlight";
 import { TypewriterEffectSmooth } from "./ui/Typewriter-effect";
+import { TypewriterEffect } from "./ui/Typewriter-effect";
 
 // Loading component for suspense
 const LoadingPlaceholder = () => (

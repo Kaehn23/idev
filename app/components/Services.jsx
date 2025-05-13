@@ -56,7 +56,7 @@ function Services() {
             "Optimisation des images & vidéos",
          ],
       },
-      
+
       {
          title: "Maintenance",
          description: [
@@ -67,7 +67,6 @@ function Services() {
             "Refonte des designs existants",
             "Refactorisation",
             "Migration de code-base",
-                       
          ],
       },
    ];
@@ -171,9 +170,9 @@ function Services() {
                   transition: { type: "spring", stiffness: 100 },
                }}
             >
-               Sinon, il y a aussi la{" "}
                <Link href="/#faq">
-               <span className="font-bold">Foire Aux Questions (FAQ)</span>
+                  Sinon, il y a aussi la{" "}
+                  <span className="font-bold">Foire Aux Questions (FAQ)</span>
                </Link>
             </motion.div>
 

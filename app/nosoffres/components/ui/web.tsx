@@ -17,7 +17,7 @@ function Web() {
                   <p className="text-black pb-4">
                      Adapté aux petites entreprises ainsi qu'aux start-up
                   </p>
-                  <p className="text-black">
+                  <p className="text-black pb-4">
                      Site internet "One Page" regroupant les principales
                      informations de votre entreprise, votre domaine d'activité
                      ainsi que les coordonnées de contact <br /> Contient les
@@ -30,7 +30,9 @@ function Web() {
 
                <div className="w-full  border-t border-gray-500 my-4"></div>
                <ul className="mb-4 text-black list-disc list-inside py-4 font-semibold">
-                  <li>Site internet statique"One Page"</li>
+                  <li>Site internet statique "One Page"</li>
+                  <li>Design moderne</li>
+                  <li>Copywriting impactant</li>
                   <li>Onglets "Accueil", "A Propos", "Services", "Contact"</li>
                   <li className="list-none">
                      <br />
@@ -88,16 +90,15 @@ function Web() {
                <ul className="mb-4 text-black list-disc list-inside py-4 font-semibold">
                   <li>Site vitrine animé complet</li>
                   <li>Animations modernes</li>
-                  <li>Onglets "Accueil", "A Propos", "Services", "Contact"</li>
-                  <li>Onglets sur demande</li>
-                  <li>Pages supplémentaires (Description détaillée de vos services, prestations, etc.)</li>
+                  <li>Design moderne</li>
+                  <li>Copywriting impactant</li>                  
+                  <li>Pages supplémentaires (Description détaillée de vos services, prestations, etc...)</li>
                   
                   
                   <li className="list-none">
                      <br />
                   </li>{" "}
-                  <li>Formulaire de contact</li>
-                  <li>Prise de rendez-vous en ligne</li>                                   
+                  <li>Formulaire de contact</li>                                                     
                   <li>Intégration de votre emplacement Google Maps</li>                  
                   
                   <li className="list-none">
@@ -148,9 +149,12 @@ function Web() {
                <ul className="mb-4 text-black list-disc list-inside py-4 font-semibold">
                   <li>Site vitrine complet</li>
                   <li>Animations modernes</li>
-                  <li>Onglets " Acceuil", "A Propos", "Services", "Contact"</li>
-                  <li>Onglets sur demande</li>
+                  <li>Design moderne</li>
+                  <li>Copywriting impactant</li>                  
                   <li>Pages supplémentaires (Description détaillée de vos services, prestations, etc.)</li>
+                  <li className="list-none">
+                     <br />
+                  </li>{" "}
                   <li>Articles de blog</li>
                   <li>Chatbot IA (Support client)</li>
 
